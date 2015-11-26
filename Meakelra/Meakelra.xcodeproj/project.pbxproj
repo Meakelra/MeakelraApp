@@ -20,6 +20,14 @@
 		9B9142EB1C076B2E00D7ABF7 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 9B9142E61C076B2E00D7ABF7 /* zbar-help.html */; };
 		9B9142EC1C076B2E00D7ABF7 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9142E71C076B2E00D7ABF7 /* zbar-helpicons.png */; };
 		9B9142ED1C076B2E00D7ABF7 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9142E81C076B2E00D7ABF7 /* zbar-samples.png */; };
+		9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142F11C076BD400D7ABF7 /* bitstream.c */; };
+		9B9143021C076BD400D7ABF7 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142F31C076BD400D7ABF7 /* mask.c */; };
+		9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142F61C076BD400D7ABF7 /* QRCodeGenerator.m */; };
+		9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142F71C076BD400D7ABF7 /* qrencode.c */; };
+		9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142F91C076BD400D7ABF7 /* qrinput.c */; };
+		9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FB1C076BD400D7ABF7 /* qrspec.c */; };
+		9B9143071C076BD400D7ABF7 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FD1C076BD400D7ABF7 /* rscode.c */; };
+		9B9143081C076BD400D7ABF7 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FF1C076BD400D7ABF7 /* split.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +89,22 @@
 		9B9142E61C076B2E00D7ABF7 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		9B9142E71C076B2E00D7ABF7 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		9B9142E81C076B2E00D7ABF7 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		9B9142F11C076BD400D7ABF7 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		9B9142F21C076BD400D7ABF7 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		9B9142F31C076BD400D7ABF7 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		9B9142F41C076BD400D7ABF7 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		9B9142F51C076BD400D7ABF7 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		9B9142F61C076BD400D7ABF7 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		9B9142F71C076BD400D7ABF7 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		9B9142F81C076BD400D7ABF7 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		9B9142F91C076BD400D7ABF7 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		9B9142FA1C076BD400D7ABF7 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		9B9142FB1C076BD400D7ABF7 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		9B9142FC1C076BD400D7ABF7 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		9B9142FD1C076BD400D7ABF7 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		9B9142FE1C076BD400D7ABF7 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		9B9142FF1C076BD400D7ABF7 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		9B9143001C076BD400D7ABF7 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +199,8 @@
 		9B9142CA1C076B0C00D7ABF7 /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
-				9B9142CB1C076B2E00D7ABF7 /* ZBarSDK */,
+				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
+				9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */,
 			);
 			name = "第三方库";
 			sourceTree = "<group>";
@@ -242,6 +267,45 @@
 				9B9142E81C076B2E00D7ABF7 /* zbar-samples.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				9B9142CB1C076B2E00D7ABF7 /* ZBarSDK */,
+			);
+			name = "二维码扫描";
+			sourceTree = "<group>";
+		};
+		9B9142EF1C076BB300D7ABF7 /* 二维码生成 */ = {
+			isa = PBXGroup;
+			children = (
+				9B9142F01C076BD400D7ABF7 /* libqrencode */,
+			);
+			name = "二维码生成";
+			sourceTree = "<group>";
+		};
+		9B9142F01C076BD400D7ABF7 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				9B9142F11C076BD400D7ABF7 /* bitstream.c */,
+				9B9142F21C076BD400D7ABF7 /* bitstream.h */,
+				9B9142F31C076BD400D7ABF7 /* mask.c */,
+				9B9142F41C076BD400D7ABF7 /* mask.h */,
+				9B9142F51C076BD400D7ABF7 /* QRCodeGenerator.h */,
+				9B9142F61C076BD400D7ABF7 /* QRCodeGenerator.m */,
+				9B9142F71C076BD400D7ABF7 /* qrencode.c */,
+				9B9142F81C076BD400D7ABF7 /* qrencode.h */,
+				9B9142F91C076BD400D7ABF7 /* qrinput.c */,
+				9B9142FA1C076BD400D7ABF7 /* qrinput.h */,
+				9B9142FB1C076BD400D7ABF7 /* qrspec.c */,
+				9B9142FC1C076BD400D7ABF7 /* qrspec.h */,
+				9B9142FD1C076BD400D7ABF7 /* rscode.c */,
+				9B9142FE1C076BD400D7ABF7 /* rscode.h */,
+				9B9142FF1C076BD400D7ABF7 /* split.c */,
+				9B9143001C076BD400D7ABF7 /* split.h */,
+			);
+			path = libqrencode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,9 +442,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
+				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
+				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
+				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
+				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
+				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
+				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
+				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
