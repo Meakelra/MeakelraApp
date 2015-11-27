@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */; };
+		9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */; };
+		9B8787CB1C07EE0F0094FEA1 /* BitcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BD1C07EE0F0094FEA1 /* BitcodeViewController.m */; };
+		9B8787CC1C07EE0F0094FEA1 /* ConfidenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BF1C07EE0F0094FEA1 /* ConfidenceViewController.m */; };
+		9B8787CD1C07EE0F0094FEA1 /* FontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787C11C07EE0F0094FEA1 /* FontViewController.m */; };
+		9B8787CF1C07EE0F0094FEA1 /* NSAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787C51C07EE0F0094FEA1 /* NSAppViewController.m */; };
+		9B8787D01C07EE0F0094FEA1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787C71C07EE0F0094FEA1 /* TableViewController.m */; };
+		9B8787D11C07EE0F0094FEA1 /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787C91C07EE0F0094FEA1 /* URLViewController.m */; };
 		9B9142991C076A9400D7ABF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142981C076A9400D7ABF7 /* main.m */; };
 		9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429B1C076A9400D7ABF7 /* AppDelegate.m */; };
 		9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429E1C076A9400D7ABF7 /* ViewController.m */; };
@@ -68,6 +76,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B8787B71C07EDD70094FEA1 /* MemoryWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningViewController.h; sourceTree = "<group>"; };
+		9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningViewController.m; sourceTree = "<group>"; };
+		9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicableViewController.h; sourceTree = "<group>"; };
+		9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicableViewController.m; sourceTree = "<group>"; };
+		9B8787BC1C07EE0F0094FEA1 /* BitcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitcodeViewController.h; sourceTree = "<group>"; };
+		9B8787BD1C07EE0F0094FEA1 /* BitcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitcodeViewController.m; sourceTree = "<group>"; };
+		9B8787BE1C07EE0F0094FEA1 /* ConfidenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfidenceViewController.h; sourceTree = "<group>"; };
+		9B8787BF1C07EE0F0094FEA1 /* ConfidenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfidenceViewController.m; sourceTree = "<group>"; };
+		9B8787C01C07EE0F0094FEA1 /* FontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontViewController.h; sourceTree = "<group>"; };
+		9B8787C11C07EE0F0094FEA1 /* FontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontViewController.m; sourceTree = "<group>"; };
+		9B8787C41C07EE0F0094FEA1 /* NSAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAppViewController.h; sourceTree = "<group>"; };
+		9B8787C51C07EE0F0094FEA1 /* NSAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAppViewController.m; sourceTree = "<group>"; };
+		9B8787C61C07EE0F0094FEA1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9B8787C71C07EE0F0094FEA1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9B8787C81C07EE0F0094FEA1 /* URLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLViewController.h; sourceTree = "<group>"; };
+		9B8787C91C07EE0F0094FEA1 /* URLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLViewController.m; sourceTree = "<group>"; };
 		9B9142941C076A9400D7ABF7 /* Meakelra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meakelra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9142981C076A9400D7ABF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B91429A1C076A9400D7ABF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -426,6 +450,8 @@
 		9B9973A71C07EAEC009DD5ED /* 内存警告处理 */ = {
 			isa = PBXGroup;
 			children = (
+				9B8787B71C07EDD70094FEA1 /* MemoryWarningViewController.h */,
+				9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */,
 			);
 			name = "内存警告处理";
 			path = "../内存警告处理";
@@ -452,6 +478,20 @@
 		9B9973AA1C07EAEC009DD5ED /* iOS9适配 */ = {
 			isa = PBXGroup;
 			children = (
+				9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */,
+				9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */,
+				9B8787C41C07EE0F0094FEA1 /* NSAppViewController.h */,
+				9B8787C51C07EE0F0094FEA1 /* NSAppViewController.m */,
+				9B8787BC1C07EE0F0094FEA1 /* BitcodeViewController.h */,
+				9B8787BD1C07EE0F0094FEA1 /* BitcodeViewController.m */,
+				9B8787BE1C07EE0F0094FEA1 /* ConfidenceViewController.h */,
+				9B8787BF1C07EE0F0094FEA1 /* ConfidenceViewController.m */,
+				9B8787C01C07EE0F0094FEA1 /* FontViewController.h */,
+				9B8787C11C07EE0F0094FEA1 /* FontViewController.m */,
+				9B8787C81C07EE0F0094FEA1 /* URLViewController.h */,
+				9B8787C91C07EE0F0094FEA1 /* URLViewController.m */,
+				9B8787C61C07EE0F0094FEA1 /* TableViewController.h */,
+				9B8787C71C07EE0F0094FEA1 /* TableViewController.m */,
 			);
 			name = "iOS9适配";
 			path = "../iOS9适配";
@@ -594,15 +634,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
+				9B8787CD1C07EE0F0094FEA1 /* FontViewController.m in Sources */,
+				9B8787D11C07EE0F0094FEA1 /* URLViewController.m in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9B8787CC1C07EE0F0094FEA1 /* ConfidenceViewController.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
+				9B8787CF1C07EE0F0094FEA1 /* NSAppViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
+				9B8787CB1C07EE0F0094FEA1 /* BitcodeViewController.m in Sources */,
+				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
@@ -614,6 +661,7 @@
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
+				9B8787D01C07EE0F0094FEA1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

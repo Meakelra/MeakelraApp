@@ -7,9 +7,9 @@
 //
 
 #import "LocalViewController.h"
-//#import "CodeViewController.h"
-//#import "MemoryWarningViewController.h"
-//#import "ApplicableViewController.h"
+#import "CodeViewController.h"
+#import "MemoryWarningViewController.h"
+#import "ApplicableViewController.h"
 
 @interface LocalViewController ()
 
@@ -28,29 +28,29 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    switch (indexPath.row) {
-//        case 3:{
-//            ApplicableViewController *app = [[ApplicableViewController alloc] init];
-//            app.hidesBottomBarWhenPushed = YES;
-//            [self.navigationController pushViewController:app animated:YES];
-//        }
-//            break;
-//        case 4:{
-//            CodeViewController *code = [[CodeViewController alloc] init];
-//            code.hidesBottomBarWhenPushed = YES;
-//            [self.navigationController pushViewController:code animated:YES];
-//        }
-//            break;
-//        case 5:{
-//            MemoryWarningViewController *warning = [[MemoryWarningViewController alloc] init];
-//            warning.hidesBottomBarWhenPushed = YES;
-//            [self.navigationController pushViewController:warning animated:YES];
-//        }
-//            break;
-//            
-//        default:
-//            break;
-//    }
+    switch (indexPath.row) {
+        case 3:{
+            ApplicableViewController *app = [[ApplicableViewController alloc] init];
+            app.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:app animated:YES];
+        }
+            break;
+        case 4:{
+            CodeViewController *code = [[CodeViewController alloc] init];
+            code.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:code animated:YES];
+        }
+            break;
+        case 5:{
+            MemoryWarningViewController *warning = [[MemoryWarningViewController alloc] init];
+            warning.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:warning animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
