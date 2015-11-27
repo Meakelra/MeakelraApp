@@ -10,6 +10,7 @@
 		51EC4EBFEE8707B88B12F1D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623333C672AEC32137EE106 /* libPods.a */; };
 		9B2EF7C31C084EA800234B57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EF7C21C084EA800234B57 /* Info.plist */; };
 		9B2EF7CA1C0850CB00234B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EF7CC1C0850CB00234B57 /* InfoPlist.strings */; };
+		9B2EF7D11C0853C100234B57 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EF7D31C0853C100234B57 /* Localizable.strings */; };
 		9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C8FC1C082F0B00C49D43 /* ListDatabaseViewController.m */; };
 		9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C8FF1C082F5E00C49D43 /* InternationalViewController.m */; };
 		9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C9021C082FA700C49D43 /* SuitableViewController.m */; };
@@ -85,6 +86,8 @@
 		9B2EF7C91C0850BE00234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		9B2EF7CB1C0850CB00234B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B2EF7CD1C0850CD00234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9B2EF7D41C0853C200234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9B2EF7D51C0853C300234B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9B40C8FB1C082F0B00C49D43 /* ListDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDatabaseViewController.h; sourceTree = "<group>"; };
 		9B40C8FC1C082F0B00C49D43 /* ListDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDatabaseViewController.m; sourceTree = "<group>"; };
 		9B40C8FE1C082F5E00C49D43 /* InternationalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalViewController.h; sourceTree = "<group>"; };
@@ -239,6 +242,76 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B2EF7D61C08581C00234B57 /* 分享登陆 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分享登陆";
+			sourceTree = "<group>";
+		};
+		9B2EF7D71C08581C00234B57 /* 软件更新 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "软件更新";
+			sourceTree = "<group>";
+		};
+		9B2EF7D81C08581C00234B57 /* 上传下载 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "上传下载";
+			sourceTree = "<group>";
+		};
+		9B2EF7D91C08581C00234B57 /* 推送 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "推送";
+			sourceTree = "<group>";
+		};
+		9B2EF7DA1C08581C00234B57 /* 网络检查 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络检查";
+			sourceTree = "<group>";
+		};
+		9B2EF7DB1C08581C00234B57 /* 下载断点续传 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "下载断点续传";
+			sourceTree = "<group>";
+		};
+		9B2EF7DC1C08581C00234B57 /* 性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "性能优化";
+			sourceTree = "<group>";
+		};
+		9B2EF7DD1C08581C00234B57 /* 指示器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "指示器";
+			sourceTree = "<group>";
+		};
+		9B2EF7DE1C08581C00234B57 /* cell高度 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "cell高度";
+			sourceTree = "<group>";
+		};
+		9B2EF7DF1C08581C00234B57 /* Json-Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Json-Model";
+			sourceTree = "<group>";
+		};
 		9B40C8F71C082EC800C49D43 /* 多表数据库 */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,9 +377,9 @@
 				9B91429B1C076A9400D7ABF7 /* AppDelegate.m */,
 				9B91429D1C076A9400D7ABF7 /* ViewController.h */,
 				9B91429E1C076A9400D7ABF7 /* ViewController.m */,
+				9B9973A51C07EAEC009DD5ED /* 附加 */,
 				9B9973A81C07EAEC009DD5ED /* 三方库文件 */,
 				9B9973A91C07EAEC009DD5ED /* 网络 */,
-				9B9973A51C07EAEC009DD5ED /* 附加 */,
 				9B9973A31C07EAEC009DD5ED /* 本地 */,
 				9B9973A61C07EAEC009DD5ED /* 基本 */,
 				9B9142A01C076A9400D7ABF7 /* Main.storyboard */,
@@ -331,6 +404,7 @@
 				9B9973CF1C07ECBC009DD5ED /* UIKit.framework */,
 				9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */,
 				9B9142981C076A9400D7ABF7 /* main.m */,
+				9B2EF7D31C0853C100234B57 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -538,6 +612,16 @@
 			children = (
 				9B9973BA1C07EBBD009DD5ED /* HttpViewController.h */,
 				9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */,
+				9B2EF7DB1C08581C00234B57 /* 下载断点续传 */,
+				9B2EF7D91C08581C00234B57 /* 推送 */,
+				9B2EF7D61C08581C00234B57 /* 分享登陆 */,
+				9B2EF7D71C08581C00234B57 /* 软件更新 */,
+				9B2EF7DA1C08581C00234B57 /* 网络检查 */,
+				9B2EF7D81C08581C00234B57 /* 上传下载 */,
+				9B2EF7DD1C08581C00234B57 /* 指示器 */,
+				9B2EF7DE1C08581C00234B57 /* cell高度 */,
+				9B2EF7DC1C08581C00234B57 /* 性能优化 */,
+				9B2EF7DF1C08581C00234B57 /* Json-Model */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -640,6 +724,7 @@
 			knownRegions = (
 				Base,
 				"zh-Hans",
+				en,
 			);
 			mainGroup = 9B91428B1C076A9400D7ABF7;
 			productRefGroup = 9B9142951C076A9400D7ABF7 /* Products */;
@@ -659,6 +744,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9973C61C07EC5E009DD5ED /* line@2x.png in Resources */,
+				9B2EF7D11C0853C100234B57 /* Localizable.strings in Resources */,
 				9B9973C71C07EC5E009DD5ED /* pick_bg@2x.png in Resources */,
 				9B9142A71C076A9400D7ABF7 /* LaunchScreen.storyboard in Resources */,
 				9B9142EB1C076B2E00D7ABF7 /* zbar-help.html in Resources */,
@@ -810,6 +896,15 @@
 				9B2EF7CD1C0850CD00234B57 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B2EF7D31C0853C100234B57 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2EF7D41C0853C200234B57 /* zh-Hans */,
+				9B2EF7D51C0853C300234B57 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		9B9142A01C076A9400D7ABF7 /* Main.storyboard */ = {
