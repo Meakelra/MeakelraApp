@@ -7,12 +7,6 @@
 //
 
 #import "ApplicableViewController.h"
-#import "NSAppViewController.h"
-#import "BitcodeViewController.h"
-#import "ConfidenceViewController.h"
-#import "FontViewController.h"
-#import "URLViewController.h"
-#import "TableViewController.h"
 
 @interface ApplicableViewController ()
 
@@ -26,49 +20,17 @@
     
     self.navigationItem.title = @"iOS9适配";
     
-    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"NSAppTransportSecurity", @"Bitcode", @"设置信任", @"字体", @"URL scheme", @"UITableView"]];
     
-    self.tableView.frame = CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height - 64);
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height - 64)];
+    NSURL *url = [NSURL URLWithString:@"http://www.cnblogs.com/dsxniubility/p/4821184.html"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
+    [self.view addSubview:webView];
     
+    
+    self.tableView = nil;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    switch (indexPath.row) {
-        case 0:{
-            NSAppViewController *app = [[NSAppViewController alloc] init];
-            [self.navigationController pushViewController:app animated:YES];
-        }
-            break;
-        case 1:{
-            BitcodeViewController *bit = [[BitcodeViewController alloc] init];
-            [self.navigationController pushViewController:bit animated:YES];
-        }
-            break;
-        case 2:{
-            ConfidenceViewController *confidence = [[ConfidenceViewController alloc] init];
-            [self.navigationController pushViewController:confidence animated:YES];
-        }
-            break;
-        case 3:{
-            FontViewController *font = [[FontViewController alloc] init];
-            [self.navigationController pushViewController:font animated:YES];
-        }
-            break;
-        case 4:{
-            URLViewController *url = [[URLViewController alloc] init];
-            [self.navigationController pushViewController:url animated:YES];
-        }
-            break;
-        case 5:{
-            TableViewController *table = [[TableViewController alloc] init];
-            [self.navigationController pushViewController:table animated:YES];
-        }
-            break;
-            
-        default:
-            break;
-    }
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
