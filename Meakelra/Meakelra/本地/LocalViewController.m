@@ -10,6 +10,10 @@
 #import "CodeViewController.h"
 #import "MemoryWarningViewController.h"
 #import "ApplicableViewController.h"
+#import "ListDatabaseViewController.h"
+#import "InternationalViewController.h"
+#import "SuitableViewController.h"
+#import "CocoaViewController.h"
 
 @interface LocalViewController ()
 
@@ -29,6 +33,24 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
+        case 0:{
+            ListDatabaseViewController *list = [[ListDatabaseViewController alloc] init];
+            list.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:list animated:YES];
+        }
+            break;
+        case 1:{
+            InternationalViewController *international = [[InternationalViewController alloc] init];
+            international.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:international animated:YES];
+        }
+            break;
+        case 2:{
+            SuitableViewController *suitable = [[SuitableViewController alloc] init];
+            suitable.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:suitable animated:YES];
+        }
+            break;
         case 3:{
             ApplicableViewController *app = [[ApplicableViewController alloc] init];
             app.hidesBottomBarWhenPushed = YES;
@@ -47,8 +69,16 @@
             [self.navigationController pushViewController:warning animated:YES];
         }
             break;
+        case 6:{
+            CocoaViewController *cocoapods = [[CocoaViewController alloc] init];
+            cocoapods.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:cocoapods animated:YES];
+        }
+            break;
             
-        default:
+        default:{
+            NSLog(@"无效的点击");
+        }
             break;
     }
 }

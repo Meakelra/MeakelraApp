@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		51EC4EBFEE8707B88B12F1D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623333C672AEC32137EE106 /* libPods.a */; };
+		9B2EF7C31C084EA800234B57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EF7C21C084EA800234B57 /* Info.plist */; };
+		9B2EF7CA1C0850CB00234B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EF7CC1C0850CB00234B57 /* InfoPlist.strings */; };
+		9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C8FC1C082F0B00C49D43 /* ListDatabaseViewController.m */; };
+		9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C8FF1C082F5E00C49D43 /* InternationalViewController.m */; };
+		9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C9021C082FA700C49D43 /* SuitableViewController.m */; };
+		9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C9051C082FB600C49D43 /* CocoaViewController.m */; };
 		9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */; };
 		9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */; };
 		9B9142991C076A9400D7ABF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142981C076A9400D7ABF7 /* main.m */; };
@@ -72,6 +78,21 @@
 
 /* Begin PBXFileReference section */
 		3623333C672AEC32137EE106 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2EF7C21C084EA800234B57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2EF7C61C0850B400234B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9B2EF7C71C0850B400234B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9B2EF7C81C0850BE00234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9B2EF7C91C0850BE00234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9B2EF7CB1C0850CB00234B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B2EF7CD1C0850CD00234B57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9B40C8FB1C082F0B00C49D43 /* ListDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDatabaseViewController.h; sourceTree = "<group>"; };
+		9B40C8FC1C082F0B00C49D43 /* ListDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDatabaseViewController.m; sourceTree = "<group>"; };
+		9B40C8FE1C082F5E00C49D43 /* InternationalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalViewController.h; sourceTree = "<group>"; };
+		9B40C8FF1C082F5E00C49D43 /* InternationalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalViewController.m; sourceTree = "<group>"; };
+		9B40C9011C082FA700C49D43 /* SuitableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuitableViewController.h; sourceTree = "<group>"; };
+		9B40C9021C082FA700C49D43 /* SuitableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuitableViewController.m; sourceTree = "<group>"; };
+		9B40C9041C082FB600C49D43 /* CocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaViewController.h; sourceTree = "<group>"; };
+		9B40C9051C082FB600C49D43 /* CocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaViewController.m; sourceTree = "<group>"; };
 		9B8787B71C07EDD70094FEA1 /* MemoryWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningViewController.h; sourceTree = "<group>"; };
 		9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningViewController.m; sourceTree = "<group>"; };
 		9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicableViewController.h; sourceTree = "<group>"; };
@@ -85,7 +106,6 @@
 		9B9142A11C076A9400D7ABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B9142A31C076A9400D7ABF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9142A61C076A9400D7ABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B9142A81C076A9400D7ABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B9142AD1C076A9400D7ABF7 /* MeakelraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeakelraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9142B11C076A9400D7ABF7 /* MeakelraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeakelraTests.m; sourceTree = "<group>"; };
 		9B9142B31C076A9400D7ABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -219,17 +239,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B40C8F71C082EC800C49D43 /* 多表数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				9B40C8FB1C082F0B00C49D43 /* ListDatabaseViewController.h */,
+				9B40C8FC1C082F0B00C49D43 /* ListDatabaseViewController.m */,
+			);
+			path = "多表数据库";
+			sourceTree = "<group>";
+		};
+		9B40C8F81C082EC800C49D43 /* 国际化 */ = {
+			isa = PBXGroup;
+			children = (
+				9B40C8FE1C082F5E00C49D43 /* InternationalViewController.h */,
+				9B40C8FF1C082F5E00C49D43 /* InternationalViewController.m */,
+			);
+			path = "国际化";
+			sourceTree = "<group>";
+		};
+		9B40C8F91C082EC800C49D43 /* 界面适配 */ = {
+			isa = PBXGroup;
+			children = (
+				9B40C9011C082FA700C49D43 /* SuitableViewController.h */,
+				9B40C9021C082FA700C49D43 /* SuitableViewController.m */,
+			);
+			path = "界面适配";
+			sourceTree = "<group>";
+		};
+		9B40C8FA1C082EC800C49D43 /* cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				9B40C9041C082FB600C49D43 /* CocoaViewController.h */,
+				9B40C9051C082FB600C49D43 /* CocoaViewController.m */,
+			);
+			path = cocoapods;
+			sourceTree = "<group>";
+		};
 		9B91428B1C076A9400D7ABF7 = {
 			isa = PBXGroup;
 			children = (
-				9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */,
-				9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */,
-				9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */,
-				9B9973D51C07ECE5009DD5ED /* QuartzCore.framework */,
-				9B9973D31C07ECD6009DD5ED /* libiconv.tbd */,
-				9B9973D11C07ECC3009DD5ED /* Foundation.framework */,
-				9B9973CF1C07ECBC009DD5ED /* UIKit.framework */,
-				9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */,
 				9B9142961C076A9400D7ABF7 /* Meakelra */,
 				9B9142B01C076A9400D7ABF7 /* MeakelraTests */,
 				9B9142BB1C076A9400D7ABF7 /* MeakelraUITests */,
@@ -264,7 +312,6 @@
 				9B9142A01C076A9400D7ABF7 /* Main.storyboard */,
 				9B9142A31C076A9400D7ABF7 /* Assets.xcassets */,
 				9B9142A51C076A9400D7ABF7 /* LaunchScreen.storyboard */,
-				9B9142A81C076A9400D7ABF7 /* Info.plist */,
 				9B9142971C076A9400D7ABF7 /* Supporting Files */,
 			);
 			path = Meakelra;
@@ -273,6 +320,16 @@
 		9B9142971C076A9400D7ABF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B2EF7C21C084EA800234B57 /* Info.plist */,
+				9B2EF7CC1C0850CB00234B57 /* InfoPlist.strings */,
+				9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */,
+				9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */,
+				9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */,
+				9B9973D51C07ECE5009DD5ED /* QuartzCore.framework */,
+				9B9973D31C07ECD6009DD5ED /* libiconv.tbd */,
+				9B9973D11C07ECC3009DD5ED /* Foundation.framework */,
+				9B9973CF1C07ECBC009DD5ED /* UIKit.framework */,
+				9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */,
 				9B9142981C076A9400D7ABF7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -406,6 +463,10 @@
 			children = (
 				9B9973B41C07EB90009DD5ED /* LocalViewController.h */,
 				9B9973B51C07EB90009DD5ED /* LocalViewController.m */,
+				9B40C8F71C082EC800C49D43 /* 多表数据库 */,
+				9B40C8F81C082EC800C49D43 /* 国际化 */,
+				9B40C8F91C082EC800C49D43 /* 界面适配 */,
+				9B40C8FA1C082EC800C49D43 /* cocoapods */,
 				9B9973A41C07EAEC009DD5ED /* 二维码 */,
 				9B9973A71C07EAEC009DD5ED /* 内存警告处理 */,
 				9B9973AA1C07EAEC009DD5ED /* iOS9适配 */,
@@ -577,8 +638,8 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9B91428B1C076A9400D7ABF7;
 			productRefGroup = 9B9142951C076A9400D7ABF7 /* Products */;
@@ -605,6 +666,8 @@
 				9B9142EC1C076B2E00D7ABF7 /* zbar-helpicons.png in Resources */,
 				9B9142EA1C076B2E00D7ABF7 /* zbar-back.png in Resources */,
 				9B9142A41C076A9400D7ABF7 /* Assets.xcassets in Resources */,
+				9B2EF7C31C084EA800234B57 /* Info.plist in Resources */,
+				9B2EF7CA1C0850CB00234B57 /* InfoPlist.strings in Resources */,
 				9B9142A21C076A9400D7ABF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,8 +748,10 @@
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
 				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
@@ -694,6 +759,7 @@
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
+				9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
 				9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
@@ -701,6 +767,7 @@
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
+				9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,10 +803,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9B2EF7CC1C0850CB00234B57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2EF7CB1C0850CB00234B57 /* en */,
+				9B2EF7CD1C0850CD00234B57 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		9B9142A01C076A9400D7ABF7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9B9142A11C076A9400D7ABF7 /* Base */,
+				9B2EF7C61C0850B400234B57 /* en */,
+				9B2EF7C81C0850BE00234B57 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -748,6 +826,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B9142A61C076A9400D7ABF7 /* Base */,
+				9B2EF7C71C0850B400234B57 /* en */,
+				9B2EF7C91C0850BE00234B57 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -849,7 +929,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -867,7 +947,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

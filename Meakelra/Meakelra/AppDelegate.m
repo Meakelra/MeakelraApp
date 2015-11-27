@@ -26,6 +26,11 @@
     //设置根视图控制器
     self.window.rootViewController = [[CustomTabBarController alloc] init];
     
+    NSLog(@"%@",NSLocalizedString(@"language", @""));
+    
+    NSString *proName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+    NSLog(@"dicName ==== %@",[[NSBundle mainBundle] infoDictionary]);
+    NSLog(@"%@",proName);
     [self.window makeKeyAndVisible];
     
     return YES;

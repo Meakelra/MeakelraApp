@@ -37,45 +37,45 @@
     num = 0;
     upOrdown = NO;
     //初始话ZBar
-    ZBarReaderViewController * reader = [[ZBarReaderViewController alloc] init];
-    //设置代理
-    reader.readerDelegate = self;
-    //支持界面旋转
-    reader.supportedOrientationsMask = ZBarOrientationMaskAll;
-    reader.showsHelpOnFail = NO;
-    reader.scanCrop = CGRectMake(0.1, 0.2, 0.8, 0.8);//扫描的感应框
-    ZBarImageScanner * scanner = reader.scanner;
-    [scanner setSymbology:ZBAR_I25
-                   config:ZBAR_CFG_ENABLE
-                       to:0];
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
-    view.backgroundColor = [UIColor clearColor];
-    reader.cameraOverlayView = view;
-    
-    
-    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 280, 40)];
-    label.text = @"请将扫描的二维码至于下面的框内\n谢谢！";
-    label.textColor = [UIColor whiteColor];
-    label.textAlignment = 1;
-    label.lineBreakMode = 0;
-    label.numberOfLines = 2;
-    label.backgroundColor = [UIColor clearColor];
-    [view addSubview:label];
-    
-    UIImageView * image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pick_bg.png"]];
-    image.frame = CGRectMake(20, 80, 280, 280);
-    [view addSubview:image];
-    
-    
-    _line = [[UIImageView alloc] initWithFrame:CGRectMake(30, 10, 220, 2)];
-    _line.image = [UIImage imageNamed:@"line.png"];
-    [image addSubview:_line];
-    //定时器，设定时间过1.5秒，
-    timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
-    
-    [self presentViewController:reader animated:YES completion:^{
-        
-    }];
+//    ZBarReaderViewController * reader = [[ZBarReaderViewController alloc] init];
+//    //设置代理
+//    reader.readerDelegate = self;
+//    //支持界面旋转
+//    reader.supportedOrientationsMask = ZBarOrientationMaskAll;
+//    reader.showsHelpOnFail = NO;
+//    reader.scanCrop = CGRectMake(0.1, 0.2, 0.8, 0.8);//扫描的感应框
+//    ZBarImageScanner * scanner = reader.scanner;
+//    [scanner setSymbology:ZBAR_I25
+//                   config:ZBAR_CFG_ENABLE
+//                       to:0];
+//    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 420)];
+//    view.backgroundColor = [UIColor clearColor];
+//    reader.cameraOverlayView = view;
+//    
+//    
+//    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 280, 40)];
+//    label.text = @"请将扫描的二维码至于下面的框内\n谢谢！";
+//    label.textColor = [UIColor whiteColor];
+//    label.textAlignment = 1;
+//    label.lineBreakMode = 0;
+//    label.numberOfLines = 2;
+//    label.backgroundColor = [UIColor clearColor];
+//    [view addSubview:label];
+//    
+//    UIImageView * image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pick_bg.png"]];
+//    image.frame = CGRectMake(20, 80, 280, 280);
+//    [view addSubview:image];
+//    
+//    
+//    _line = [[UIImageView alloc] initWithFrame:CGRectMake(30, 10, 220, 2)];
+//    _line.image = [UIImage imageNamed:@"line.png"];
+//    [image addSubview:_line];
+//    //定时器，设定时间过1.5秒，
+//    timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
+//    
+//    [self presentViewController:reader animated:YES completion:^{
+//        
+//    }];
 }
 -(void)animation1
 {
@@ -116,26 +116,26 @@
         [picker removeFromParentViewController];
         UIImage * image = [info objectForKey:UIImagePickerControllerOriginalImage];
         //初始化
-        ZBarReaderController * read = [ZBarReaderController new];
-        //设置代理
-        read.readerDelegate = self;
-        CGImageRef cgImageRef = image.CGImage;
-        ZBarSymbol * symbol = nil;
-        id <NSFastEnumeration> results = [read scanImage:cgImageRef];
-        for (symbol in results)
-        {
-            break;
-        }
-        NSString * result;
-        if ([symbol.data canBeConvertedToEncoding:NSShiftJISStringEncoding])
-            {
-            result = [NSString stringWithCString:[symbol.data cStringUsingEncoding: NSShiftJISStringEncoding] encoding:NSUTF8StringEncoding];
-        }
-        else{
-            result = symbol.data;
-        }
-        
-        NSLog(@"%@",result);
+//        ZBarReaderController * read = [ZBarReaderController new];
+//        //设置代理
+//        read.readerDelegate = self;
+//        CGImageRef cgImageRef = image.CGImage;
+//        ZBarSymbol * symbol = nil;
+//        id <NSFastEnumeration> results = [read scanImage:cgImageRef];
+//        for (symbol in results)
+//        {
+//            break;
+//        }
+//        NSString * result;
+//        if ([symbol.data canBeConvertedToEncoding:NSShiftJISStringEncoding])
+//            {
+//            result = [NSString stringWithCString:[symbol.data cStringUsingEncoding: NSShiftJISStringEncoding] encoding:NSUTF8StringEncoding];
+//        }
+//        else{
+//            result = symbol.data;
+//        }
+//        
+//        NSLog(@"%@",result);
         
     }];
 }
