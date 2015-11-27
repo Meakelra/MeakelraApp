@@ -28,6 +28,12 @@
 		9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FB1C076BD400D7ABF7 /* qrspec.c */; };
 		9B9143071C076BD400D7ABF7 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FD1C076BD400D7ABF7 /* rscode.c */; };
 		9B9143081C076BD400D7ABF7 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142FF1C076BD400D7ABF7 /* split.c */; };
+		9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973AC1C07EB69009DD5ED /* BaseViewController.m */; };
+		9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973AE1C07EB69009DD5ED /* CustomTabBarController.m */; };
+		9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973B01C07EB69009DD5ED /* RootViewController.m */; };
+		9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973B51C07EB90009DD5ED /* LocalViewController.m */; };
+		9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */; };
+		9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +111,18 @@
 		9B9142FE1C076BD400D7ABF7 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
 		9B9142FF1C076BD400D7ABF7 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
 		9B9143001C076BD400D7ABF7 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		9B9973AB1C07EB69009DD5ED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9B9973AC1C07EB69009DD5ED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9B9973AD1C07EB69009DD5ED /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		9B9973AE1C07EB69009DD5ED /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		9B9973AF1C07EB69009DD5ED /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9B9973B01C07EB69009DD5ED /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9B9973B41C07EB90009DD5ED /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		9B9973B51C07EB90009DD5ED /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		9B9973B71C07EBA4009DD5ED /* AdditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionViewController.h; sourceTree = "<group>"; };
+		9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionViewController.m; sourceTree = "<group>"; };
+		9B9973BA1C07EBBD009DD5ED /* HttpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpViewController.h; sourceTree = "<group>"; };
+		9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +326,8 @@
 		9B9973A31C07EAEC009DD5ED /* 本地 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9973B41C07EB90009DD5ED /* LocalViewController.h */,
+				9B9973B51C07EB90009DD5ED /* LocalViewController.m */,
 				9B9973A41C07EAEC009DD5ED /* 二维码 */,
 				9B9973A71C07EAEC009DD5ED /* 内存警告处理 */,
 				9B9973AA1C07EAEC009DD5ED /* iOS9适配 */,
@@ -326,6 +346,8 @@
 		9B9973A51C07EAEC009DD5ED /* 附加 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9973B71C07EBA4009DD5ED /* AdditionViewController.h */,
+				9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */,
 			);
 			path = "附加";
 			sourceTree = "<group>";
@@ -333,6 +355,12 @@
 		9B9973A61C07EAEC009DD5ED /* 基本 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9973AB1C07EB69009DD5ED /* BaseViewController.h */,
+				9B9973AC1C07EB69009DD5ED /* BaseViewController.m */,
+				9B9973AD1C07EB69009DD5ED /* CustomTabBarController.h */,
+				9B9973AE1C07EB69009DD5ED /* CustomTabBarController.m */,
+				9B9973AF1C07EB69009DD5ED /* RootViewController.h */,
+				9B9973B01C07EB69009DD5ED /* RootViewController.m */,
 			);
 			path = "基本";
 			sourceTree = "<group>";
@@ -357,6 +385,8 @@
 		9B9973A91C07EAEC009DD5ED /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9973BA1C07EBBD009DD5ED /* HttpViewController.h */,
+				9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -504,15 +534,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
+				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
+				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
+				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
+				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
+				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
