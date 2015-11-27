@@ -34,6 +34,20 @@
 		9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973B51C07EB90009DD5ED /* LocalViewController.m */; };
 		9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */; };
 		9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */; };
+		9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973BE1C07EC5E009DD5ED /* CodeViewController.m */; };
+		9B9973C61C07EC5E009DD5ED /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9973BF1C07EC5E009DD5ED /* line@2x.png */; };
+		9B9973C71C07EC5E009DD5ED /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9973C01C07EC5E009DD5ED /* pick_bg@2x.png */; };
+		9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973C21C07EC5E009DD5ED /* SystemCodeViewController.m */; };
+		9B9973C91C07EC5E009DD5ED /* ZBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973C41C07EC5E009DD5ED /* ZBarCodeViewController.m */; };
+		9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9973CB1C07EC7E009DD5ED /* MakeCodeViewController.m */; };
+		9B9973CE1C07ECB2009DD5ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */; };
+		9B9973D01C07ECBC009DD5ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973CF1C07ECBC009DD5ED /* UIKit.framework */; };
+		9B9973D21C07ECC3009DD5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D11C07ECC3009DD5ED /* Foundation.framework */; };
+		9B9973D41C07ECD6009DD5ED /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D31C07ECD6009DD5ED /* libiconv.tbd */; };
+		9B9973D61C07ECE5009DD5ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D51C07ECE5009DD5ED /* QuartzCore.framework */; };
+		9B9973D81C07ECEC009DD5ED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */; };
+		9B9973DA1C07ECF5009DD5ED /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */; };
+		9B9973DC1C07ECFF009DD5ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +137,24 @@
 		9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionViewController.m; sourceTree = "<group>"; };
 		9B9973BA1C07EBBD009DD5ED /* HttpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpViewController.h; sourceTree = "<group>"; };
 		9B9973BB1C07EBBD009DD5ED /* HttpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpViewController.m; sourceTree = "<group>"; };
+		9B9973BD1C07EC5E009DD5ED /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		9B9973BE1C07EC5E009DD5ED /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		9B9973BF1C07EC5E009DD5ED /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		9B9973C01C07EC5E009DD5ED /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+		9B9973C11C07EC5E009DD5ED /* SystemCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemCodeViewController.h; sourceTree = "<group>"; };
+		9B9973C21C07EC5E009DD5ED /* SystemCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemCodeViewController.m; sourceTree = "<group>"; };
+		9B9973C31C07EC5E009DD5ED /* ZBarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCodeViewController.h; sourceTree = "<group>"; };
+		9B9973C41C07EC5E009DD5ED /* ZBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarCodeViewController.m; sourceTree = "<group>"; };
+		9B9973CA1C07EC7E009DD5ED /* MakeCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCodeViewController.h; sourceTree = "<group>"; };
+		9B9973CB1C07EC7E009DD5ED /* MakeCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCodeViewController.m; sourceTree = "<group>"; };
+		9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B9973CF1C07ECBC009DD5ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B9973D11C07ECC3009DD5ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B9973D31C07ECD6009DD5ED /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		9B9973D51C07ECE5009DD5ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +162,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9973DC1C07ECFF009DD5ED /* AVFoundation.framework in Frameworks */,
+				9B9973DA1C07ECF5009DD5ED /* CoreVideo.framework in Frameworks */,
+				9B9973D81C07ECEC009DD5ED /* CoreMedia.framework in Frameworks */,
+				9B9973D61C07ECE5009DD5ED /* QuartzCore.framework in Frameworks */,
+				9B9973D41C07ECD6009DD5ED /* libiconv.tbd in Frameworks */,
+				9B9973D21C07ECC3009DD5ED /* Foundation.framework in Frameworks */,
+				9B9973D01C07ECBC009DD5ED /* UIKit.framework in Frameworks */,
+				9B9973CE1C07ECB2009DD5ED /* CoreGraphics.framework in Frameworks */,
 				9B9142E91C076B2E00D7ABF7 /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +194,14 @@
 		9B91428B1C076A9400D7ABF7 = {
 			isa = PBXGroup;
 			children = (
+				9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */,
+				9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */,
+				9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */,
+				9B9973D51C07ECE5009DD5ED /* QuartzCore.framework */,
+				9B9973D31C07ECD6009DD5ED /* libiconv.tbd */,
+				9B9973D11C07ECC3009DD5ED /* Foundation.framework */,
+				9B9973CF1C07ECBC009DD5ED /* UIKit.framework */,
+				9B9973CD1C07ECB2009DD5ED /* CoreGraphics.framework */,
 				9B9142961C076A9400D7ABF7 /* Meakelra */,
 				9B9142B01C076A9400D7ABF7 /* MeakelraTests */,
 				9B9142BB1C076A9400D7ABF7 /* MeakelraUITests */,
@@ -338,6 +386,16 @@
 		9B9973A41C07EAEC009DD5ED /* 二维码 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9973BD1C07EC5E009DD5ED /* CodeViewController.h */,
+				9B9973BE1C07EC5E009DD5ED /* CodeViewController.m */,
+				9B9973CA1C07EC7E009DD5ED /* MakeCodeViewController.h */,
+				9B9973CB1C07EC7E009DD5ED /* MakeCodeViewController.m */,
+				9B9973C11C07EC5E009DD5ED /* SystemCodeViewController.h */,
+				9B9973C21C07EC5E009DD5ED /* SystemCodeViewController.m */,
+				9B9973C31C07EC5E009DD5ED /* ZBarCodeViewController.h */,
+				9B9973C41C07EC5E009DD5ED /* ZBarCodeViewController.m */,
+				9B9973BF1C07EC5E009DD5ED /* line@2x.png */,
+				9B9973C01C07EC5E009DD5ED /* pick_bg@2x.png */,
 			);
 			name = "二维码";
 			path = "../二维码";
@@ -502,6 +560,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9973C61C07EC5E009DD5ED /* line@2x.png in Resources */,
+				9B9973C71C07EC5E009DD5ED /* pick_bg@2x.png in Resources */,
 				9B9142A71C076A9400D7ABF7 /* LaunchScreen.storyboard in Resources */,
 				9B9142EB1C076B2E00D7ABF7 /* zbar-help.html in Resources */,
 				9B9142ED1C076B2E00D7ABF7 /* zbar-samples.png in Resources */,
@@ -540,13 +600,17 @@
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
+				9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
+				9B9973C91C07EC5E009DD5ED /* ZBarCodeViewController.m in Sources */,
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
