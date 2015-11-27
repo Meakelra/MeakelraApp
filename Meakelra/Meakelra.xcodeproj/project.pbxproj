@@ -160,7 +160,11 @@
 				9B91429B1C076A9400D7ABF7 /* AppDelegate.m */,
 				9B91429D1C076A9400D7ABF7 /* ViewController.h */,
 				9B91429E1C076A9400D7ABF7 /* ViewController.m */,
-				9B9142CA1C076B0C00D7ABF7 /* 第三方库 */,
+				9B9973A81C07EAEC009DD5ED /* 三方库文件 */,
+				9B9973A91C07EAEC009DD5ED /* 网络 */,
+				9B9973A51C07EAEC009DD5ED /* 附加 */,
+				9B9973A31C07EAEC009DD5ED /* 本地 */,
+				9B9973A61C07EAEC009DD5ED /* 基本 */,
 				9B9142A01C076A9400D7ABF7 /* Main.storyboard */,
 				9B9142A31C076A9400D7ABF7 /* Assets.xcassets */,
 				9B9142A51C076A9400D7ABF7 /* LaunchScreen.storyboard */,
@@ -194,15 +198,6 @@
 				9B9142BE1C076A9400D7ABF7 /* Info.plist */,
 			);
 			path = MeakelraUITests;
-			sourceTree = "<group>";
-		};
-		9B9142CA1C076B0C00D7ABF7 /* 第三方库 */ = {
-			isa = PBXGroup;
-			children = (
-				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
-				9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */,
-			);
-			name = "第三方库";
 			sourceTree = "<group>";
 		};
 		9B9142CB1C076B2E00D7ABF7 /* ZBarSDK */ = {
@@ -275,6 +270,7 @@
 				9B9142CB1C076B2E00D7ABF7 /* ZBarSDK */,
 			);
 			name = "二维码扫描";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9B9142EF1C076BB300D7ABF7 /* 二维码生成 */ = {
@@ -283,6 +279,7 @@
 				9B9142F01C076BD400D7ABF7 /* libqrencode */,
 			);
 			name = "二维码生成";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9B9142F01C076BD400D7ABF7 /* libqrencode */ = {
@@ -306,6 +303,70 @@
 				9B9143001C076BD400D7ABF7 /* split.h */,
 			);
 			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		9B9973A31C07EAEC009DD5ED /* 本地 */ = {
+			isa = PBXGroup;
+			children = (
+				9B9973A41C07EAEC009DD5ED /* 二维码 */,
+				9B9973A71C07EAEC009DD5ED /* 内存警告处理 */,
+				9B9973AA1C07EAEC009DD5ED /* iOS9适配 */,
+			);
+			path = "本地";
+			sourceTree = "<group>";
+		};
+		9B9973A41C07EAEC009DD5ED /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "二维码";
+			path = "../二维码";
+			sourceTree = "<group>";
+		};
+		9B9973A51C07EAEC009DD5ED /* 附加 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "附加";
+			sourceTree = "<group>";
+		};
+		9B9973A61C07EAEC009DD5ED /* 基本 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "基本";
+			sourceTree = "<group>";
+		};
+		9B9973A71C07EAEC009DD5ED /* 内存警告处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "内存警告处理";
+			path = "../内存警告处理";
+			sourceTree = "<group>";
+		};
+		9B9973A81C07EAEC009DD5ED /* 三方库文件 */ = {
+			isa = PBXGroup;
+			children = (
+				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
+				9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */,
+			);
+			path = "三方库文件";
+			sourceTree = "<group>";
+		};
+		9B9973A91C07EAEC009DD5ED /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		9B9973AA1C07EAEC009DD5ED /* iOS9适配 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "iOS9适配";
+			path = "../iOS9适配";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Meakelra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -599,6 +661,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -606,6 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Meakelra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -614,6 +678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
