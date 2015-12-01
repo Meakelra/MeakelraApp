@@ -6,8 +6,8 @@
 //  Copyright © 2015年 Meakelra. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "RootViewController.h"
 
-@interface CheckNetViewController : BaseViewController
+@interface CheckNetViewController : RootViewController
 
 @end

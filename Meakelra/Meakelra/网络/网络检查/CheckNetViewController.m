@@ -7,6 +7,8 @@
 //
 
 #import "CheckNetViewController.h"
+#import "ReachabilityCheckViewController.h"
+#import "AFCheckViewController.h"
 
 @interface CheckNetViewController ()
 
@@ -17,6 +19,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+
+    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"Reachability", @"AFNetworking"]];
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:{
+            ReachabilityCheckViewController *reachability = [[ReachabilityCheckViewController alloc] init];
+            [self.navigationController pushViewController:reachability animated:YES];
+        }
+            break;
+        case 1:{
+            AFCheckViewController *af = [[AFCheckViewController alloc] init];
+            [self.navigationController pushViewController:af animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

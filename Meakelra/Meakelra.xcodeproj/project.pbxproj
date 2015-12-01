@@ -26,6 +26,9 @@
 		9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420191C0D2E7D00FA620E /* CFNetwork.framework */; };
 		9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */; };
 		9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */; };
+		9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29D81C0D7C81004A6D7A /* ReachabilityCheckViewController.m */; };
+		9B8B29DC1C0D7C8D004A6D7A /* AFCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29DB1C0D7C8D004A6D7A /* AFCheckViewController.m */; };
+		9B8B29E01C0D81E9004A6D7A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29DF1C0D81E9004A6D7A /* Reachability.m */; };
 		9B9142991C076A9400D7ABF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142981C076A9400D7ABF7 /* main.m */; };
 		9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429B1C076A9400D7ABF7 /* AppDelegate.m */; };
 		9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429E1C076A9400D7ABF7 /* ViewController.m */; };
@@ -125,6 +128,12 @@
 		9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningViewController.m; sourceTree = "<group>"; };
 		9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicableViewController.h; sourceTree = "<group>"; };
 		9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicableViewController.m; sourceTree = "<group>"; };
+		9B8B29D71C0D7C81004A6D7A /* ReachabilityCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityCheckViewController.h; sourceTree = "<group>"; };
+		9B8B29D81C0D7C81004A6D7A /* ReachabilityCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityCheckViewController.m; sourceTree = "<group>"; };
+		9B8B29DA1C0D7C8D004A6D7A /* AFCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCheckViewController.h; sourceTree = "<group>"; };
+		9B8B29DB1C0D7C8D004A6D7A /* AFCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCheckViewController.m; sourceTree = "<group>"; };
+		9B8B29DE1C0D81E9004A6D7A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9B8B29DF1C0D81E9004A6D7A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		9B9142941C076A9400D7ABF7 /* Meakelra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meakelra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9142981C076A9400D7ABF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B91429A1C076A9400D7ABF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -329,6 +338,10 @@
 			children = (
 				9BBD59481C0C2A73004DA77F /* CheckNetViewController.h */,
 				9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */,
+				9B8B29D71C0D7C81004A6D7A /* ReachabilityCheckViewController.h */,
+				9B8B29D81C0D7C81004A6D7A /* ReachabilityCheckViewController.m */,
+				9B8B29DA1C0D7C8D004A6D7A /* AFCheckViewController.h */,
+				9B8B29DB1C0D7C8D004A6D7A /* AFCheckViewController.m */,
 			);
 			path = "网络检查";
 			sourceTree = "<group>";
@@ -421,6 +434,15 @@
 				9B44200D1C0D2DF600FA620E /* libPushSDK-1.8.8.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		9B8B29DD1C0D81E9004A6D7A /* 网络监测 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B29DE1C0D81E9004A6D7A /* Reachability.h */,
+				9B8B29DF1C0D81E9004A6D7A /* Reachability.m */,
+			);
+			path = "网络监测";
 			sourceTree = "<group>";
 		};
 		9B91428B1C076A9400D7ABF7 = {
@@ -676,6 +698,7 @@
 		9B9973A81C07EAEC009DD5ED /* 三方库文件 */ = {
 			isa = PBXGroup;
 			children = (
+				9B8B29DD1C0D81E9004A6D7A /* 网络监测 */,
 				9B44200A1C0D2DDE00FA620E /* 极光推送 */,
 				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
 				9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */,
@@ -915,6 +938,7 @@
 				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */,
 				9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */,
 				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
@@ -933,8 +957,10 @@
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
 				9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */,
+				9B8B29DC1C0D7C8D004A6D7A /* AFCheckViewController.m in Sources */,
 				9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */,
 				9B4420061C0D2C9F00FA620E /* LocalPushViewController.m in Sources */,
+				9B8B29E01C0D81E9004A6D7A /* Reachability.m in Sources */,
 				9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1099,6 +1125,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Meakelra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1118,6 +1145,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Meakelra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
