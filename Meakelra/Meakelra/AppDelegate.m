@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "CustomTabBarController.h"
+#import "APService.h"
+//464648e94c21107db1f733cf
 
 
 @interface AppDelegate ()
@@ -27,14 +29,56 @@
     self.window.rootViewController = [[CustomTabBarController alloc] init];
     
     
+    
+    
+    //注册推送
+    [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
+                                                   UIRemoteNotificationTypeSound |
+                                                   UIRemoteNotificationTypeAlert)
+                                       categories:nil];
+    [APService setupWithOption:launchOptions];
+    
+
+    
+    //注册本地通知
+    [[UIApplication sharedApplication]registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert categories:nil]];
+
+    
+    
+    
     [self.window makeKeyAndVisible];
     
     return YES;
 }
 
+//接受从服务器中请求下来的device token,并且将device token传送给极光服务器
+- (void)application:(UIApplication *)application
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    
+    [APService registerDeviceToken:deviceToken];
+}
+
+//接收发送的消息
+- (void)application:(UIApplication *)application
+didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [APService handleRemoteNotification:userInfo];
+    
+}
+
+//接收本地通知
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"%@",notification.alertBody);
+}
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    
+    [[UIApplication sharedApplication]cancelAllLocalNotifications];
+
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

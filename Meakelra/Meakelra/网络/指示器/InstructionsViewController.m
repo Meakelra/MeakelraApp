@@ -1,33 +1,22 @@
 //
-//  InternationalViewController.m
+//  InstructionsViewController.m
 //  Meakelra
 //
-//  Created by 潘颖超 on 15/11/27.
+//  Created by 潘颖超 on 15/11/30.
 //  Copyright © 2015年 Meakelra. All rights reserved.
 //
 
-#import "InternationalViewController.h"
+#import "InstructionsViewController.h"
 
-@interface InternationalViewController ()
+@interface InstructionsViewController ()
 
 @end
 
-@implementation InternationalViewController
+@implementation InstructionsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.navigationItem.title = @"国际化";
-    
-    //获取国际化文字
-    NSLog(@"%@",NSLocalizedString(@"language", @""));
-    
-    UILabel *label = [[UILabel alloc] init];
-    label.frame = CGRectMake(20, 100, 250, 60);
-    label.text = NSLocalizedString(@"language", @"");
-    [self.view addSubview:label];
-
 }
 
 - (void)didReceiveMemoryWarning {

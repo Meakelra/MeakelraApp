@@ -15,6 +15,15 @@
 		9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C8FF1C082F5E00C49D43 /* InternationalViewController.m */; };
 		9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C9021C082FA700C49D43 /* SuitableViewController.m */; };
 		9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40C9051C082FB600C49D43 /* CocoaViewController.m */; };
+		9B4420061C0D2C9F00FA620E /* LocalPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4420051C0D2C9F00FA620E /* LocalPushViewController.m */; };
+		9B4420091C0D2CBA00FA620E /* JGPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4420081C0D2CBA00FA620E /* JGPushViewController.m */; };
+		9B44200E1C0D2DF600FA620E /* libPushSDK-1.8.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B44200D1C0D2DF600FA620E /* libPushSDK-1.8.8.a */; };
+		9B4420101C0D2E2900FA620E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B44200F1C0D2E2900FA620E /* libz.tbd */; };
+		9B4420121C0D2E3300FA620E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420111C0D2E3300FA620E /* Security.framework */; };
+		9B4420141C0D2E4E00FA620E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420131C0D2E4E00FA620E /* SystemConfiguration.framework */; };
+		9B4420161C0D2E5C00FA620E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */; };
+		9B4420181C0D2E7100FA620E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420171C0D2E7100FA620E /* CoreFoundation.framework */; };
+		9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420191C0D2E7D00FA620E /* CFNetwork.framework */; };
 		9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */; };
 		9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */; };
 		9B9142991C076A9400D7ABF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142981C076A9400D7ABF7 /* main.m */; };
@@ -58,6 +67,10 @@
 		9B9973D81C07ECEC009DD5ED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */; };
 		9B9973DA1C07ECF5009DD5ED /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */; };
 		9B9973DC1C07ECFF009DD5ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */; };
+		9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD59461C0C2A3B004DA77F /* UpdataViewController.m */; };
+		9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */; };
+		9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */; };
+		9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594F1C0C2B3D004DA77F /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +109,18 @@
 		9B40C9021C082FA700C49D43 /* SuitableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuitableViewController.m; sourceTree = "<group>"; };
 		9B40C9041C082FB600C49D43 /* CocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaViewController.h; sourceTree = "<group>"; };
 		9B40C9051C082FB600C49D43 /* CocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaViewController.m; sourceTree = "<group>"; };
+		9B4420041C0D2C9F00FA620E /* LocalPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPushViewController.h; sourceTree = "<group>"; };
+		9B4420051C0D2C9F00FA620E /* LocalPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPushViewController.m; sourceTree = "<group>"; };
+		9B4420071C0D2CBA00FA620E /* JGPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGPushViewController.h; sourceTree = "<group>"; };
+		9B4420081C0D2CBA00FA620E /* JGPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGPushViewController.m; sourceTree = "<group>"; };
+		9B44200C1C0D2DF600FA620E /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		9B44200D1C0D2DF600FA620E /* libPushSDK-1.8.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.8.a"; sourceTree = "<group>"; };
+		9B44200F1C0D2E2900FA620E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B4420111C0D2E3300FA620E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B4420131C0D2E4E00FA620E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9B4420171C0D2E7100FA620E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9B4420191C0D2E7D00FA620E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9B8787B71C07EDD70094FEA1 /* MemoryWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningViewController.h; sourceTree = "<group>"; };
 		9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningViewController.m; sourceTree = "<group>"; };
 		9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicableViewController.h; sourceTree = "<group>"; };
@@ -186,6 +211,14 @@
 		9B9973D71C07ECEC009DD5ED /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		9B9973D91C07ECF5009DD5ED /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		9B9973DB1C07ECFF009DD5ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9BBD59451C0C2A3B004DA77F /* UpdataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdataViewController.h; sourceTree = "<group>"; };
+		9BBD59461C0C2A3B004DA77F /* UpdataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdataViewController.m; sourceTree = "<group>"; };
+		9BBD59481C0C2A73004DA77F /* CheckNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetViewController.h; sourceTree = "<group>"; };
+		9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetViewController.m; sourceTree = "<group>"; };
+		9BBD594B1C0C2A9E004DA77F /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		9BBD594E1C0C2B3D004DA77F /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		9BBD594F1C0C2B3D004DA77F /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		B796068F0EAD6A536204F196 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F7BEAABE83CF78E9B9478BAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,10 +228,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */,
+				9B4420181C0D2E7100FA620E /* CoreFoundation.framework in Frameworks */,
+				9B4420161C0D2E5C00FA620E /* CoreTelephony.framework in Frameworks */,
+				9B4420141C0D2E4E00FA620E /* SystemConfiguration.framework in Frameworks */,
+				9B4420121C0D2E3300FA620E /* Security.framework in Frameworks */,
+				9B4420101C0D2E2900FA620E /* libz.tbd in Frameworks */,
 				9B9973DC1C07ECFF009DD5ED /* AVFoundation.framework in Frameworks */,
 				9B9973DA1C07ECF5009DD5ED /* CoreVideo.framework in Frameworks */,
 				9B9973D81C07ECEC009DD5ED /* CoreMedia.framework in Frameworks */,
 				9B9973D61C07ECE5009DD5ED /* QuartzCore.framework in Frameworks */,
+				9B44200E1C0D2DF600FA620E /* libPushSDK-1.8.8.a in Frameworks */,
 				9B9973D41C07ECD6009DD5ED /* libiconv.tbd in Frameworks */,
 				9B9973D21C07ECC3009DD5ED /* Foundation.framework in Frameworks */,
 				9B9973D01C07ECBC009DD5ED /* UIKit.framework in Frameworks */,
@@ -237,6 +277,12 @@
 		7B186A2F33E3EEC73C60BE2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B4420191C0D2E7D00FA620E /* CFNetwork.framework */,
+				9B4420171C0D2E7100FA620E /* CoreFoundation.framework */,
+				9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */,
+				9B4420131C0D2E4E00FA620E /* SystemConfiguration.framework */,
+				9B4420111C0D2E3300FA620E /* Security.framework */,
+				9B44200F1C0D2E2900FA620E /* libz.tbd */,
 				3623333C672AEC32137EE106 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -252,6 +298,8 @@
 		9B2EF7D71C08581C00234B57 /* 软件更新 */ = {
 			isa = PBXGroup;
 			children = (
+				9BBD59451C0C2A3B004DA77F /* UpdataViewController.h */,
+				9BBD59461C0C2A3B004DA77F /* UpdataViewController.m */,
 			);
 			path = "软件更新";
 			sourceTree = "<group>";
@@ -266,6 +314,12 @@
 		9B2EF7D91C08581C00234B57 /* 推送 */ = {
 			isa = PBXGroup;
 			children = (
+				9BBD594E1C0C2B3D004DA77F /* PushViewController.h */,
+				9BBD594F1C0C2B3D004DA77F /* PushViewController.m */,
+				9B4420041C0D2C9F00FA620E /* LocalPushViewController.h */,
+				9B4420051C0D2C9F00FA620E /* LocalPushViewController.m */,
+				9B4420071C0D2CBA00FA620E /* JGPushViewController.h */,
+				9B4420081C0D2CBA00FA620E /* JGPushViewController.m */,
 			);
 			path = "推送";
 			sourceTree = "<group>";
@@ -273,6 +327,8 @@
 		9B2EF7DA1C08581C00234B57 /* 网络检查 */ = {
 			isa = PBXGroup;
 			children = (
+				9BBD59481C0C2A73004DA77F /* CheckNetViewController.h */,
+				9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */,
 			);
 			path = "网络检查";
 			sourceTree = "<group>";
@@ -294,6 +350,8 @@
 		9B2EF7DD1C08581C00234B57 /* 指示器 */ = {
 			isa = PBXGroup;
 			children = (
+				9BBD594B1C0C2A9E004DA77F /* InstructionsViewController.h */,
+				9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */,
 			);
 			path = "指示器";
 			sourceTree = "<group>";
@@ -346,6 +404,23 @@
 				9B40C9051C082FB600C49D43 /* CocoaViewController.m */,
 			);
 			path = cocoapods;
+			sourceTree = "<group>";
+		};
+		9B44200A1C0D2DDE00FA620E /* 极光推送 */ = {
+			isa = PBXGroup;
+			children = (
+				9B44200B1C0D2DF600FA620E /* lib */,
+			);
+			path = "极光推送";
+			sourceTree = "<group>";
+		};
+		9B44200B1C0D2DF600FA620E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9B44200C1C0D2DF600FA620E /* APService.h */,
+				9B44200D1C0D2DF600FA620E /* libPushSDK-1.8.8.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		9B91428B1C076A9400D7ABF7 = {
@@ -601,6 +676,7 @@
 		9B9973A81C07EAEC009DD5ED /* 三方库文件 */ = {
 			isa = PBXGroup;
 			children = (
+				9B44200A1C0D2DDE00FA620E /* 极光推送 */,
 				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
 				9B9142EE1C076BA000D7ABF7 /* 二维码扫描 */,
 			);
@@ -830,13 +906,16 @@
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
+				9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
+				9B4420091C0D2CBA00FA620E /* JGPushViewController.m in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
 				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */,
 				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
@@ -853,6 +932,9 @@
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
+				9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */,
+				9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */,
+				9B4420061C0D2C9F00FA620E /* LocalPushViewController.m in Sources */,
 				9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1021,6 +1103,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Meakelra/ZBarSDK",
+					"$(PROJECT_DIR)/Meakelra/三方库文件/极光推送/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1039,6 +1122,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Meakelra/ZBarSDK",
+					"$(PROJECT_DIR)/Meakelra/三方库文件/极光推送/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Meakelra.Meakelra;
 				PRODUCT_NAME = "$(TARGET_NAME)";

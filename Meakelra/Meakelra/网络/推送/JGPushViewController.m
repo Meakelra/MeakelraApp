@@ -1,28 +1,27 @@
- //
-//  CocoaViewController.m
+//
+//  JGPushViewController.m
 //  Meakelra
 //
-//  Created by 潘颖超 on 15/11/27.
+//  Created by 潘颖超 on 15/12/1.
 //  Copyright © 2015年 Meakelra. All rights reserved.
 //
 
-#import "CocoaViewController.h"
+#import "JGPushViewController.h"
 
-@interface CocoaViewController ()
+
+@interface JGPushViewController ()
 
 @end
 
-@implementation CocoaViewController
+@implementation JGPushViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.navigationItem.title = @"Cocoapods";
+    self.navigationItem.title = @"极光推送";
     
-    
-    //详情请见文档
-    
+    //此段代码参考AppDelegate里面的代码
 }
 
 - (void)didReceiveMemoryWarning {

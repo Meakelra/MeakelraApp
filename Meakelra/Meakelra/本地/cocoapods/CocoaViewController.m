@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view.
     
     self.navigationItem.title = @"Cocoapods";
+    
+    
+    //详情请见文档
+    
 }
 
 - (void)didReceiveMemoryWarning {

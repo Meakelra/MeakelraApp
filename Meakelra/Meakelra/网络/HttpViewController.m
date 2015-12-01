@@ -7,6 +7,10 @@
 //
 
 #import "HttpViewController.h"
+#import "PushViewController.h"
+#import "UpdataViewController.h"
+#import "CheckNetViewController.h"
+#import "InstructionsViewController.h"
 
 @interface HttpViewController ()
 
@@ -21,6 +25,61 @@
     self.navigationItem.title = @"网络";
     
     self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"下载断点续传", @"本地推送和远程推送", @"第三方分享和登录 OAuth2.0实现", @"软件更新检查", @"网络状态检查", @"POST上传下载", @"加载指示器", @"动态计算cell的高度", @"性能优化（内存，加载速度等）", @"Mantle或者JsonModel"]];
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:{
+            
+        }
+            break;
+        case 1:{
+            PushViewController *push = [[PushViewController alloc] init];
+            push.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:push animated:YES];
+        }
+            break;
+        case 2:{
+            
+        }
+            break;
+        case 3:{
+            UpdataViewController *updata = [[UpdataViewController alloc] init];
+            updata.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:updata animated:YES];
+        }
+            break;
+        case 4:{
+            CheckNetViewController *checkNet = [[CheckNetViewController alloc] init];
+            checkNet.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:checkNet animated:YES];
+        }
+            break;
+        case 5:{
+            
+        }
+            break;
+        case 6:{
+            InstructionsViewController *instructions = [[InstructionsViewController alloc] init];
+            instructions.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:instructions animated:YES];
+        }
+            break;
+        case 7:{
+            
+        }
+            break;
+        case 8:{
+            
+        }
+            break;
+        case 9:{
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
