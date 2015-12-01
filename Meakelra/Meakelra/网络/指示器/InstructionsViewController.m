@@ -7,6 +7,9 @@
 //
 
 #import "InstructionsViewController.h"
+#import "StateViewController.h"
+#import "SystemViewController.h"
+#import "HudViewController.h"
 
 @interface InstructionsViewController ()
 
@@ -17,6 +20,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"指示器";
+    
+    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"状态栏", @"系统指示器", @"三方指示器"]];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:{
+            StateViewController *state = [[StateViewController alloc] init];
+            [self.navigationController pushViewController:state animated:YES];
+        }
+            break;
+        case 1:{
+            SystemViewController *system = [[SystemViewController alloc] init];
+            [self.navigationController pushViewController:system animated:YES];
+        }
+            break;
+        case 2:{
+            HudViewController *hud = [[HudViewController alloc] init];
+            [self.navigationController pushViewController:hud animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

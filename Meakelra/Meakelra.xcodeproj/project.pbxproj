@@ -29,6 +29,9 @@
 		9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29D81C0D7C81004A6D7A /* ReachabilityCheckViewController.m */; };
 		9B8B29DC1C0D7C8D004A6D7A /* AFCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29DB1C0D7C8D004A6D7A /* AFCheckViewController.m */; };
 		9B8B29E01C0D81E9004A6D7A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29DF1C0D81E9004A6D7A /* Reachability.m */; };
+		9B8B29E31C0D96EA004A6D7A /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29E21C0D96EA004A6D7A /* StateViewController.m */; };
+		9B8B29E61C0D96F7004A6D7A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29E51C0D96F7004A6D7A /* SystemViewController.m */; };
+		9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29E81C0D9709004A6D7A /* HudViewController.m */; };
 		9B9142991C076A9400D7ABF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9142981C076A9400D7ABF7 /* main.m */; };
 		9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429B1C076A9400D7ABF7 /* AppDelegate.m */; };
 		9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91429E1C076A9400D7ABF7 /* ViewController.m */; };
@@ -134,6 +137,12 @@
 		9B8B29DB1C0D7C8D004A6D7A /* AFCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCheckViewController.m; sourceTree = "<group>"; };
 		9B8B29DE1C0D81E9004A6D7A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		9B8B29DF1C0D81E9004A6D7A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9B8B29E11C0D96EA004A6D7A /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		9B8B29E21C0D96EA004A6D7A /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		9B8B29E41C0D96F7004A6D7A /* SystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemViewController.h; sourceTree = "<group>"; };
+		9B8B29E51C0D96F7004A6D7A /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemViewController.m; sourceTree = "<group>"; };
+		9B8B29E71C0D9709004A6D7A /* HudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudViewController.h; sourceTree = "<group>"; };
+		9B8B29E81C0D9709004A6D7A /* HudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudViewController.m; sourceTree = "<group>"; };
 		9B9142941C076A9400D7ABF7 /* Meakelra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meakelra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9142981C076A9400D7ABF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B91429A1C076A9400D7ABF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -365,6 +374,12 @@
 			children = (
 				9BBD594B1C0C2A9E004DA77F /* InstructionsViewController.h */,
 				9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */,
+				9B8B29E11C0D96EA004A6D7A /* StateViewController.h */,
+				9B8B29E21C0D96EA004A6D7A /* StateViewController.m */,
+				9B8B29E41C0D96F7004A6D7A /* SystemViewController.h */,
+				9B8B29E51C0D96F7004A6D7A /* SystemViewController.m */,
+				9B8B29E71C0D9709004A6D7A /* HudViewController.h */,
+				9B8B29E81C0D9709004A6D7A /* HudViewController.m */,
 			);
 			path = "指示器";
 			sourceTree = "<group>";
@@ -929,6 +944,7 @@
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
+				9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */,
 				9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
@@ -961,7 +977,9 @@
 				9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */,
 				9B4420061C0D2C9F00FA620E /* LocalPushViewController.m in Sources */,
 				9B8B29E01C0D81E9004A6D7A /* Reachability.m in Sources */,
+				9B8B29E61C0D96F7004A6D7A /* SystemViewController.m in Sources */,
 				9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */,
+				9B8B29E31C0D96EA004A6D7A /* StateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
