@@ -24,6 +24,12 @@
 		9B4420161C0D2E5C00FA620E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */; };
 		9B4420181C0D2E7100FA620E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420171C0D2E7100FA620E /* CoreFoundation.framework */; };
 		9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420191C0D2E7D00FA620E /* CFNetwork.framework */; };
+		9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CC21C0FCF1E00CF8B90 /* CellHeightViewController.m */; };
+		9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CC61C0FD2A600CF8B90 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B7D4CC91C0FD2C100CF8B90 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7D4CC81C0FD2C100CF8B90 /* libxml2.tbd */; };
+		9B7D4CCE1C0FD3D000CF8B90 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CCD1C0FD3D000CF8B90 /* CellModel.m */; };
+		9B7D4CD11C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CD01C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m */; };
+		9B7D4CD61C0FE28200CF8B90 /* PerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CD51C0FE28200CF8B90 /* PerformanceViewController.m */; };
 		9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */; };
 		9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8787BB1C07EE0F0094FEA1 /* ApplicableViewController.m */; };
 		9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B29D81C0D7C81004A6D7A /* ReachabilityCheckViewController.m */; };
@@ -127,6 +133,17 @@
 		9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9B4420171C0D2E7100FA620E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		9B4420191C0D2E7D00FA620E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B7D4CC11C0FCF1E00CF8B90 /* CellHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightViewController.h; sourceTree = "<group>"; };
+		9B7D4CC21C0FCF1E00CF8B90 /* CellHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightViewController.m; sourceTree = "<group>"; };
+		9B7D4CC51C0FD2A600CF8B90 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		9B7D4CC61C0FD2A600CF8B90 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		9B7D4CC81C0FD2C100CF8B90 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9B7D4CCC1C0FD3D000CF8B90 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		9B7D4CCD1C0FD3D000CF8B90 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		9B7D4CCF1C0FD3EE00CF8B90 /* AutoHeightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHeightTableViewCell.h; sourceTree = "<group>"; };
+		9B7D4CD01C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTableViewCell.m; sourceTree = "<group>"; };
+		9B7D4CD41C0FE28200CF8B90 /* PerformanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceViewController.h; sourceTree = "<group>"; };
+		9B7D4CD51C0FE28200CF8B90 /* PerformanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceViewController.m; sourceTree = "<group>"; };
 		9B8787B71C07EDD70094FEA1 /* MemoryWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningViewController.h; sourceTree = "<group>"; };
 		9B8787B81C07EDD70094FEA1 /* MemoryWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningViewController.m; sourceTree = "<group>"; };
 		9B8787BA1C07EE0F0094FEA1 /* ApplicableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicableViewController.h; sourceTree = "<group>"; };
@@ -246,6 +263,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7D4CC91C0FD2C100CF8B90 /* libxml2.tbd in Frameworks */,
 				9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */,
 				9B4420181C0D2E7100FA620E /* CoreFoundation.framework in Frameworks */,
 				9B4420161C0D2E5C00FA620E /* CoreTelephony.framework in Frameworks */,
@@ -295,6 +313,7 @@
 		7B186A2F33E3EEC73C60BE2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B7D4CC81C0FD2C100CF8B90 /* libxml2.tbd */,
 				9B4420191C0D2E7D00FA620E /* CFNetwork.framework */,
 				9B4420171C0D2E7100FA620E /* CoreFoundation.framework */,
 				9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */,
@@ -365,6 +384,8 @@
 		9B2EF7DC1C08581C00234B57 /* 性能优化 */ = {
 			isa = PBXGroup;
 			children = (
+				9B7D4CD41C0FE28200CF8B90 /* PerformanceViewController.h */,
+				9B7D4CD51C0FE28200CF8B90 /* PerformanceViewController.m */,
 			);
 			path = "性能优化";
 			sourceTree = "<group>";
@@ -387,6 +408,8 @@
 		9B2EF7DE1C08581C00234B57 /* cell高度 */ = {
 			isa = PBXGroup;
 			children = (
+				9B7D4CC11C0FCF1E00CF8B90 /* CellHeightViewController.h */,
+				9B7D4CC21C0FCF1E00CF8B90 /* CellHeightViewController.m */,
 			);
 			path = "cell高度";
 			sourceTree = "<group>";
@@ -451,6 +474,33 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		9B7D4CC41C0FD2A600CF8B90 /* GData */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D4CC51C0FD2A600CF8B90 /* GDataXMLNode.h */,
+				9B7D4CC61C0FD2A600CF8B90 /* GDataXMLNode.m */,
+			);
+			path = GData;
+			sourceTree = "<group>";
+		};
+		9B7D4CCA1C0FD3AE00CF8B90 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D4CCC1C0FD3D000CF8B90 /* CellModel.h */,
+				9B7D4CCD1C0FD3D000CF8B90 /* CellModel.m */,
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		9B7D4CCB1C0FD3AE00CF8B90 /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D4CCF1C0FD3EE00CF8B90 /* AutoHeightTableViewCell.h */,
+				9B7D4CD01C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
 		9B8B29DD1C0D81E9004A6D7A /* 网络监测 */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +539,8 @@
 				9B91429B1C076A9400D7ABF7 /* AppDelegate.m */,
 				9B91429D1C076A9400D7ABF7 /* ViewController.h */,
 				9B91429E1C076A9400D7ABF7 /* ViewController.m */,
+				9B7D4CCA1C0FD3AE00CF8B90 /* AppModel */,
+				9B7D4CCB1C0FD3AE00CF8B90 /* AppView */,
 				9B9973A51C07EAEC009DD5ED /* 附加 */,
 				9B9973A81C07EAEC009DD5ED /* 三方库文件 */,
 				9B9973A91C07EAEC009DD5ED /* 网络 */,
@@ -713,6 +765,7 @@
 		9B9973A81C07EAEC009DD5ED /* 三方库文件 */ = {
 			isa = PBXGroup;
 			children = (
+				9B7D4CC41C0FD2A600CF8B90 /* GData */,
 				9B8B29DD1C0D81E9004A6D7A /* 网络监测 */,
 				9B44200A1C0D2DDE00FA620E /* 极光推送 */,
 				9B9142EF1C076BB300D7ABF7 /* 二维码生成 */,
@@ -944,6 +997,7 @@
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
+				9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */,
 				9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */,
 				9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
@@ -951,9 +1005,11 @@
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B4420091C0D2CBA00FA620E /* JGPushViewController.m in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B7D4CCE1C0FD3D000CF8B90 /* CellModel.m in Sources */,
 				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
+				9B7D4CD11C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m in Sources */,
 				9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */,
 				9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */,
 				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
@@ -962,8 +1018,10 @@
 				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
+				9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
+				9B7D4CD61C0FE28200CF8B90 /* PerformanceViewController.m in Sources */,
 				9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
 				9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */,
@@ -1142,8 +1200,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = Meakelra/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1162,8 +1226,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = Meakelra/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

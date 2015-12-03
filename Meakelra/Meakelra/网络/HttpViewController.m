@@ -11,6 +11,8 @@
 #import "UpdataViewController.h"
 #import "CheckNetViewController.h"
 #import "InstructionsViewController.h"
+#import "CellHeightViewController.h"
+#import "PerformanceViewController.h"
 
 @interface HttpViewController ()
 
@@ -65,11 +67,15 @@
         }
             break;
         case 7:{
-            
+            CellHeightViewController *cell = [[CellHeightViewController alloc] init];
+            cell.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:cell animated:YES];
         }
             break;
         case 8:{
-            
+            PerformanceViewController *performance = [[PerformanceViewController alloc] init];
+            performance.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:performance animated:YES];
         }
             break;
         case 9:{
