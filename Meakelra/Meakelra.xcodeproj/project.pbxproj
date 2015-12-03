@@ -24,6 +24,14 @@
 		9B4420161C0D2E5C00FA620E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */; };
 		9B4420181C0D2E7100FA620E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420171C0D2E7100FA620E /* CoreFoundation.framework */; };
 		9B44201A1C0D2E7D00FA620E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4420191C0D2E7D00FA620E /* CFNetwork.framework */; };
+		9B6803071C101804005DC14E /* DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6803061C101804005DC14E /* DownLoadViewController.m */; };
+		9B68030A1C10181A005DC14E /* ShareAndLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6803091C10181A005DC14E /* ShareAndLoginViewController.m */; };
+		9B68030D1C101847005DC14E /* TransmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B68030C1C101847005DC14E /* TransmitViewController.m */; };
+		9B6803101C101854005DC14E /* JsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B68030F1C101854005DC14E /* JsonViewController.m */; };
+		9B6803131C102023005DC14E /* AFDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6803121C102023005DC14E /* AFDownViewController.m */; };
+		9B6803161C102044005DC14E /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6803151C102044005DC14E /* ConnectionViewController.m */; };
+		9B6803191C10234E005DC14E /* SessionDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6803181C10234E005DC14E /* SessionDownViewController.m */; };
+		9B68031C1C10296F005DC14E /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B68031B1C10296F005DC14E /* Download.m */; };
 		9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CC21C0FCF1E00CF8B90 /* CellHeightViewController.m */; };
 		9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D4CC61C0FD2A600CF8B90 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9B7D4CC91C0FD2C100CF8B90 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7D4CC81C0FD2C100CF8B90 /* libxml2.tbd */; };
@@ -133,6 +141,22 @@
 		9B4420151C0D2E5C00FA620E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9B4420171C0D2E7100FA620E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		9B4420191C0D2E7D00FA620E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B6803051C101804005DC14E /* DownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadViewController.h; sourceTree = "<group>"; };
+		9B6803061C101804005DC14E /* DownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadViewController.m; sourceTree = "<group>"; };
+		9B6803081C10181A005DC14E /* ShareAndLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareAndLoginViewController.h; sourceTree = "<group>"; };
+		9B6803091C10181A005DC14E /* ShareAndLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareAndLoginViewController.m; sourceTree = "<group>"; };
+		9B68030B1C101847005DC14E /* TransmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmitViewController.h; sourceTree = "<group>"; };
+		9B68030C1C101847005DC14E /* TransmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransmitViewController.m; sourceTree = "<group>"; };
+		9B68030E1C101854005DC14E /* JsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonViewController.h; sourceTree = "<group>"; };
+		9B68030F1C101854005DC14E /* JsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonViewController.m; sourceTree = "<group>"; };
+		9B6803111C102023005DC14E /* AFDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownViewController.h; sourceTree = "<group>"; };
+		9B6803121C102023005DC14E /* AFDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownViewController.m; sourceTree = "<group>"; };
+		9B6803141C102044005DC14E /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		9B6803151C102044005DC14E /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		9B6803171C10234E005DC14E /* SessionDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDownViewController.h; sourceTree = "<group>"; };
+		9B6803181C10234E005DC14E /* SessionDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDownViewController.m; sourceTree = "<group>"; };
+		9B68031A1C10296F005DC14E /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		9B68031B1C10296F005DC14E /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
 		9B7D4CC11C0FCF1E00CF8B90 /* CellHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightViewController.h; sourceTree = "<group>"; };
 		9B7D4CC21C0FCF1E00CF8B90 /* CellHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightViewController.m; sourceTree = "<group>"; };
 		9B7D4CC51C0FD2A600CF8B90 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
@@ -328,6 +352,8 @@
 		9B2EF7D61C08581C00234B57 /* 分享登陆 */ = {
 			isa = PBXGroup;
 			children = (
+				9B6803081C10181A005DC14E /* ShareAndLoginViewController.h */,
+				9B6803091C10181A005DC14E /* ShareAndLoginViewController.m */,
 			);
 			path = "分享登陆";
 			sourceTree = "<group>";
@@ -344,6 +370,8 @@
 		9B2EF7D81C08581C00234B57 /* 上传下载 */ = {
 			isa = PBXGroup;
 			children = (
+				9B68030B1C101847005DC14E /* TransmitViewController.h */,
+				9B68030C1C101847005DC14E /* TransmitViewController.m */,
 			);
 			path = "上传下载";
 			sourceTree = "<group>";
@@ -377,6 +405,16 @@
 		9B2EF7DB1C08581C00234B57 /* 下载断点续传 */ = {
 			isa = PBXGroup;
 			children = (
+				9B6803051C101804005DC14E /* DownLoadViewController.h */,
+				9B6803061C101804005DC14E /* DownLoadViewController.m */,
+				9B6803111C102023005DC14E /* AFDownViewController.h */,
+				9B6803121C102023005DC14E /* AFDownViewController.m */,
+				9B6803141C102044005DC14E /* ConnectionViewController.h */,
+				9B6803151C102044005DC14E /* ConnectionViewController.m */,
+				9B68031A1C10296F005DC14E /* Download.h */,
+				9B68031B1C10296F005DC14E /* Download.m */,
+				9B6803171C10234E005DC14E /* SessionDownViewController.h */,
+				9B6803181C10234E005DC14E /* SessionDownViewController.m */,
 			);
 			path = "下载断点续传";
 			sourceTree = "<group>";
@@ -417,6 +455,8 @@
 		9B2EF7DF1C08581C00234B57 /* Json-Model */ = {
 			isa = PBXGroup;
 			children = (
+				9B68030E1C101854005DC14E /* JsonViewController.h */,
+				9B68030F1C101854005DC14E /* JsonViewController.m */,
 			);
 			path = "Json-Model";
 			sourceTree = "<group>";
@@ -996,15 +1036,20 @@
 			files = (
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
+				9B6803161C102044005DC14E /* ConnectionViewController.m in Sources */,
+				9B6803191C10234E005DC14E /* SessionDownViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
 				9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */,
+				9B6803071C101804005DC14E /* DownLoadViewController.m in Sources */,
 				9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */,
 				9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
+				9B6803101C101854005DC14E /* JsonViewController.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
 				9B9143071C076BD400D7ABF7 /* rscode.c in Sources */,
 				9B4420091C0D2CBA00FA620E /* JGPushViewController.m in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
+				9B6803131C102023005DC14E /* AFDownViewController.m in Sources */,
 				9B7D4CCE1C0FD3D000CF8B90 /* CellModel.m in Sources */,
 				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
@@ -1018,6 +1063,7 @@
 				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
 				9B91429C1C076A9400D7ABF7 /* AppDelegate.m in Sources */,
 				9B9142991C076A9400D7ABF7 /* main.m in Sources */,
+				9B68031C1C10296F005DC14E /* Download.m in Sources */,
 				9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
@@ -1025,11 +1071,13 @@
 				9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
 				9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */,
+				9B68030A1C10181A005DC14E /* ShareAndLoginViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
 				9B9973C91C07EC5E009DD5ED /* ZBarCodeViewController.m in Sources */,
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				9B9143031C076BD400D7ABF7 /* QRCodeGenerator.m in Sources */,
+				9B68030D1C101847005DC14E /* TransmitViewController.m in Sources */,
 				9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */,
 				9B8B29DC1C0D7C8D004A6D7A /* AFCheckViewController.m in Sources */,
 				9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */,

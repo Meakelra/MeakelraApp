@@ -13,6 +13,7 @@
 #import "InstructionsViewController.h"
 #import "CellHeightViewController.h"
 #import "PerformanceViewController.h"
+#import "DownLoadViewController.h"
 
 @interface HttpViewController ()
 
@@ -31,7 +32,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:{
-            
+            DownLoadViewController *downLoad = [[DownLoadViewController alloc] init];
+            downLoad.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:downLoad animated:YES];
         }
             break;
         case 1:{
