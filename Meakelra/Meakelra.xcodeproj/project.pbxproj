@@ -91,6 +91,15 @@
 		9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */; };
 		9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */; };
 		9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594F1C0C2B3D004DA77F /* PushViewController.m */; };
+		D5C216DC1C15C7AA00E17601 /* MediumDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216DB1C15C7AA00E17601 /* MediumDownLoadViewController.m */; };
+		D5C216DF1C15C7BA00E17601 /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216DE1C15C7BA00E17601 /* WaterFallViewController.m */; };
+		D5C216E21C15C7D600E17601 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216E11C15C7D600E17601 /* AddressBookViewController.m */; };
+		D5C216E51C15C81400E17601 /* PullDownRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216E41C15C81400E17601 /* PullDownRefreshViewController.m */; };
+		D5C216E81C15C82C00E17601 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216E71C15C82C00E17601 /* CircleViewController.m */; };
+		D5C216EB1C15C84900E17601 /* AudioPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216EA1C15C84900E17601 /* AudioPlayViewController.m */; };
+		D5C216EE1C15C85E00E17601 /* MasontyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216ED1C15C85E00E17601 /* MasontyViewController.m */; };
+		D5C216F11C15C86E00E17601 /* RDVTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216F01C15C86E00E17601 /* RDVTabViewController.m */; };
+		D5C216F41C15C88400E17601 /* SCNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216F31C15C88400E17601 /* SCNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +288,24 @@
 		9BBD594E1C0C2B3D004DA77F /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		9BBD594F1C0C2B3D004DA77F /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		B796068F0EAD6A536204F196 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D5C216DA1C15C7AA00E17601 /* MediumDownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediumDownLoadViewController.h; sourceTree = "<group>"; };
+		D5C216DB1C15C7AA00E17601 /* MediumDownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediumDownLoadViewController.m; sourceTree = "<group>"; };
+		D5C216DD1C15C7BA00E17601 /* WaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
+		D5C216DE1C15C7BA00E17601 /* WaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
+		D5C216E01C15C7D600E17601 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		D5C216E11C15C7D600E17601 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		D5C216E31C15C81400E17601 /* PullDownRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownRefreshViewController.h; sourceTree = "<group>"; };
+		D5C216E41C15C81400E17601 /* PullDownRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownRefreshViewController.m; sourceTree = "<group>"; };
+		D5C216E61C15C82C00E17601 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		D5C216E71C15C82C00E17601 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		D5C216E91C15C84900E17601 /* AudioPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayViewController.h; sourceTree = "<group>"; };
+		D5C216EA1C15C84900E17601 /* AudioPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayViewController.m; sourceTree = "<group>"; };
+		D5C216EC1C15C85E00E17601 /* MasontyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasontyViewController.h; sourceTree = "<group>"; };
+		D5C216ED1C15C85E00E17601 /* MasontyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasontyViewController.m; sourceTree = "<group>"; };
+		D5C216EF1C15C86E00E17601 /* RDVTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabViewController.h; sourceTree = "<group>"; };
+		D5C216F01C15C86E00E17601 /* RDVTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabViewController.m; sourceTree = "<group>"; };
+		D5C216F21C15C88400E17601 /* SCNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavViewController.h; sourceTree = "<group>"; };
+		D5C216F31C15C88400E17601 /* SCNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavViewController.m; sourceTree = "<group>"; };
 		F7BEAABE83CF78E9B9478BAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -775,6 +802,15 @@
 			children = (
 				9B9973B71C07EBA4009DD5ED /* AdditionViewController.h */,
 				9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */,
+				D5C216D11C15C75800E17601 /* 流媒体下载与播放 */,
+				D5C216D21C15C75800E17601 /* 瀑布流 */,
+				D5C216D31C15C75800E17601 /* 通讯录 */,
+				D5C216D41C15C75800E17601 /* 下拉刷新 */,
+				D5C216D51C15C75800E17601 /* 循环滚动 */,
+				D5C216D61C15C75800E17601 /* 音视频播放 */,
+				D5C216D71C15C75800E17601 /* Masonty适配 */,
+				D5C216D81C15C75800E17601 /* RDVTab */,
+				D5C216D91C15C75800E17601 /* SCNav */,
 			);
 			path = "附加";
 			sourceTree = "<group>";
@@ -841,6 +877,87 @@
 			);
 			name = "iOS9适配";
 			path = "../iOS9适配";
+			sourceTree = "<group>";
+		};
+		D5C216D11C15C75800E17601 /* 流媒体下载与播放 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216DA1C15C7AA00E17601 /* MediumDownLoadViewController.h */,
+				D5C216DB1C15C7AA00E17601 /* MediumDownLoadViewController.m */,
+			);
+			path = "流媒体下载与播放";
+			sourceTree = "<group>";
+		};
+		D5C216D21C15C75800E17601 /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216DD1C15C7BA00E17601 /* WaterFallViewController.h */,
+				D5C216DE1C15C7BA00E17601 /* WaterFallViewController.m */,
+			);
+			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		D5C216D31C15C75800E17601 /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216E01C15C7D600E17601 /* AddressBookViewController.h */,
+				D5C216E11C15C7D600E17601 /* AddressBookViewController.m */,
+			);
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
+		D5C216D41C15C75800E17601 /* 下拉刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216E31C15C81400E17601 /* PullDownRefreshViewController.h */,
+				D5C216E41C15C81400E17601 /* PullDownRefreshViewController.m */,
+			);
+			path = "下拉刷新";
+			sourceTree = "<group>";
+		};
+		D5C216D51C15C75800E17601 /* 循环滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216E61C15C82C00E17601 /* CircleViewController.h */,
+				D5C216E71C15C82C00E17601 /* CircleViewController.m */,
+			);
+			path = "循环滚动";
+			sourceTree = "<group>";
+		};
+		D5C216D61C15C75800E17601 /* 音视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216E91C15C84900E17601 /* AudioPlayViewController.h */,
+				D5C216EA1C15C84900E17601 /* AudioPlayViewController.m */,
+			);
+			path = "音视频播放";
+			sourceTree = "<group>";
+		};
+		D5C216D71C15C75800E17601 /* Masonty适配 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216EC1C15C85E00E17601 /* MasontyViewController.h */,
+				D5C216ED1C15C85E00E17601 /* MasontyViewController.m */,
+			);
+			path = "Masonty适配";
+			sourceTree = "<group>";
+		};
+		D5C216D81C15C75800E17601 /* RDVTab */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216EF1C15C86E00E17601 /* RDVTabViewController.h */,
+				D5C216F01C15C86E00E17601 /* RDVTabViewController.m */,
+			);
+			path = RDVTab;
+			sourceTree = "<group>";
+		};
+		D5C216D91C15C75800E17601 /* SCNav */ = {
+			isa = PBXGroup;
+			children = (
+				D5C216F21C15C88400E17601 /* SCNavViewController.h */,
+				D5C216F31C15C88400E17601 /* SCNavViewController.m */,
+			);
+			path = SCNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1036,11 +1153,13 @@
 			files = (
 				9B9143021C076BD400D7ABF7 /* mask.c in Sources */,
 				9B9973B11C07EB69009DD5ED /* BaseViewController.m in Sources */,
+				D5C216F41C15C88400E17601 /* SCNavViewController.m in Sources */,
 				9B6803161C102044005DC14E /* ConnectionViewController.m in Sources */,
 				9B6803191C10234E005DC14E /* SessionDownViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
 				9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */,
 				9B6803071C101804005DC14E /* DownLoadViewController.m in Sources */,
+				D5C216F11C15C86E00E17601 /* RDVTabViewController.m in Sources */,
 				9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */,
 				9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
@@ -1055,9 +1174,12 @@
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
 				9B7D4CD11C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m in Sources */,
+				D5C216E51C15C81400E17601 /* PullDownRefreshViewController.m in Sources */,
 				9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */,
+				D5C216EE1C15C85E00E17601 /* MasontyViewController.m in Sources */,
 				9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */,
 				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
+				D5C216E81C15C82C00E17601 /* CircleViewController.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
 				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
@@ -1067,9 +1189,11 @@
 				9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
+				D5C216E21C15C7D600E17601 /* AddressBookViewController.m in Sources */,
 				9B7D4CD61C0FE28200CF8B90 /* PerformanceViewController.m in Sources */,
 				9B40C9031C082FA700C49D43 /* SuitableViewController.m in Sources */,
 				9B9143051C076BD400D7ABF7 /* qrinput.c in Sources */,
+				D5C216EB1C15C84900E17601 /* AudioPlayViewController.m in Sources */,
 				9B9973C51C07EC5E009DD5ED /* CodeViewController.m in Sources */,
 				9B68030A1C10181A005DC14E /* ShareAndLoginViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
@@ -1083,8 +1207,10 @@
 				9BBD59471C0C2A3B004DA77F /* UpdataViewController.m in Sources */,
 				9B4420061C0D2C9F00FA620E /* LocalPushViewController.m in Sources */,
 				9B8B29E01C0D81E9004A6D7A /* Reachability.m in Sources */,
+				D5C216DF1C15C7BA00E17601 /* WaterFallViewController.m in Sources */,
 				9B8B29E61C0D96F7004A6D7A /* SystemViewController.m in Sources */,
 				9B40C9001C082F5E00C49D43 /* InternationalViewController.m in Sources */,
+				D5C216DC1C15C7AA00E17601 /* MediumDownLoadViewController.m in Sources */,
 				9B8B29E31C0D96EA004A6D7A /* StateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
