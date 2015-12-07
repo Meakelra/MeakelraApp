@@ -27,7 +27,7 @@
     
     self.navigationItem.title = @"网络";
     
-    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"下载断点续传", @"本地推送和远程推送", @"第三方分享和登录 OAuth2.0实现", @"软件更新检查", @"网络状态检查", @"POST上传下载", @"加载指示器", @"动态计算cell的高度", @"性能优化（内存，加载速度等）", @"Mantle或者JsonModel"]];
+    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"下载断点续传", @"*本地推送和远程推送*", @"第三方分享和登录 OAuth2.0实现", @"*软件更新检查*", @"*网络状态检查*", @"POST上传下载", @"*加载指示器*", @"*动态计算cell的高度*", @"*性能优化（内存，加载速度等）*", @"Mantle或者JsonModel"]];
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {

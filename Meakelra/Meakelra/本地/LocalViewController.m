@@ -27,7 +27,7 @@
     
     self.navigationItem.title = @"本地";
     
-    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"多表数据库", @"国际化", @"界面适配", @"iOS9适配", @"二维码", @"内存警告处理", @"cocoapods第三方库管理"]];
+    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"多表数据库", @"*国际化*", @"界面适配", @"*iOS9适配*", @"*二维码*", @"*内存警告处理*", @"*cocoapods第三方库管理*"]];
     
 }
 
