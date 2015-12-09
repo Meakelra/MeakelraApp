@@ -91,9 +91,6 @@
 		9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD59491C0C2A73004DA77F /* CheckNetViewController.m */; };
 		9BBD594D1C0C2A9E004DA77F /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594C1C0C2A9E004DA77F /* InstructionsViewController.m */; };
 		9BBD59501C0C2B3D004DA77F /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD594F1C0C2B3D004DA77F /* PushViewController.m */; };
-		D542EF131C1863D4001B5126 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D542EF0E1C1863D4001B5126 /* RDVTabBar.m */; };
-		D542EF141C1863D4001B5126 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D542EF101C1863D4001B5126 /* RDVTabBarController.m */; };
-		D542EF151C1863D4001B5126 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D542EF121C1863D4001B5126 /* RDVTabBarItem.m */; };
 		D542EF191C1864AB001B5126 /* FingerprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D542EF181C1864AB001B5126 /* FingerprintViewController.m */; };
 		D542EF1B1C1864CA001B5126 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D542EF1A1C1864CA001B5126 /* LocalAuthentication.framework */; };
 		D5C216DC1C15C7AA00E17601 /* MediumDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216DB1C15C7AA00E17601 /* MediumDownLoadViewController.m */; };
@@ -221,7 +218,7 @@
 		9B8B29E51C0D96F7004A6D7A /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemViewController.m; sourceTree = "<group>"; };
 		9B8B29E71C0D9709004A6D7A /* HudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudViewController.h; sourceTree = "<group>"; };
 		9B8B29E81C0D9709004A6D7A /* HudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudViewController.m; sourceTree = "<group>"; };
-		9B9142941C076A9400D7ABF7 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9142941C076A9400D7ABF7 /* Meakelra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meakelra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9142981C076A9400D7ABF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B91429A1C076A9400D7ABF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B91429B1C076A9400D7ABF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -316,12 +313,6 @@
 		9BBD594E1C0C2B3D004DA77F /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		9BBD594F1C0C2B3D004DA77F /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		B796068F0EAD6A536204F196 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D542EF0D1C1863D4001B5126 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
-		D542EF0E1C1863D4001B5126 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
-		D542EF0F1C1863D4001B5126 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
-		D542EF101C1863D4001B5126 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
-		D542EF111C1863D4001B5126 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
-		D542EF121C1863D4001B5126 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
 		D542EF171C1864AB001B5126 /* FingerprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintViewController.h; sourceTree = "<group>"; };
 		D542EF181C1864AB001B5126 /* FingerprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintViewController.m; sourceTree = "<group>"; };
 		D542EF1A1C1864CA001B5126 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
@@ -685,7 +676,7 @@
 		9B9142951C076A9400D7ABF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B9142941C076A9400D7ABF7 /* .app */,
+				9B9142941C076A9400D7ABF7 /* Meakelra.app */,
 				9B9142AD1C076A9400D7ABF7 /* MeakelraTests.xctest */,
 				9B9142B81C076A9400D7ABF7 /* MeakelraUITests.xctest */,
 			);
@@ -936,7 +927,6 @@
 		9B9973A81C07EAEC009DD5ED /* 三方库文件 */ = {
 			isa = PBXGroup;
 			children = (
-				D542EF0C1C1863D4001B5126 /* RDVTabBarController */,
 				D5EBBC2B1C185DBE0044CCA4 /* Masonry */,
 				9B7D4CC41C0FD2A600CF8B90 /* GData */,
 				9B8B29DD1C0D81E9004A6D7A /* 网络监测 */,
@@ -974,19 +964,6 @@
 			);
 			name = "iOS9适配";
 			path = "../iOS9适配";
-			sourceTree = "<group>";
-		};
-		D542EF0C1C1863D4001B5126 /* RDVTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				D542EF0D1C1863D4001B5126 /* RDVTabBar.h */,
-				D542EF0E1C1863D4001B5126 /* RDVTabBar.m */,
-				D542EF0F1C1863D4001B5126 /* RDVTabBarController.h */,
-				D542EF101C1863D4001B5126 /* RDVTabBarController.m */,
-				D542EF111C1863D4001B5126 /* RDVTabBarItem.h */,
-				D542EF121C1863D4001B5126 /* RDVTabBarItem.m */,
-			);
-			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
 		D542EF161C186486001B5126 /* 指纹识别 */ = {
@@ -1205,7 +1182,7 @@
 			);
 			name = Meakelra;
 			productName = Meakelra;
-			productReference = 9B9142941C076A9400D7ABF7 /* .app */;
+			productReference = 9B9142941C076A9400D7ABF7 /* Meakelra.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9B9142AC1C076A9400D7ABF7 /* MeakelraTests */ = {
@@ -1384,7 +1361,6 @@
 				9B6803161C102044005DC14E /* ConnectionViewController.m in Sources */,
 				9B6803191C10234E005DC14E /* SessionDownViewController.m in Sources */,
 				9B9143061C076BD400D7ABF7 /* qrspec.c in Sources */,
-				D542EF131C1863D4001B5126 /* RDVTabBar.m in Sources */,
 				9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */,
 				9B6803071C101804005DC14E /* DownLoadViewController.m in Sources */,
 				D5EBBC4C1C185DBE0044CCA4 /* MASViewConstraint.m in Sources */,
@@ -1419,7 +1395,6 @@
 				D5EBBC661C185E590044CCA4 /* RemakeViewController.m in Sources */,
 				D5C216E81C15C82C00E17601 /* CircleViewController.m in Sources */,
 				D5EBBC631C185E590044CCA4 /* BasicViewController.m in Sources */,
-				D542EF151C1863D4001B5126 /* RDVTabBarItem.m in Sources */,
 				9B9973C81C07EC5E009DD5ED /* SystemCodeViewController.m in Sources */,
 				9B9973B61C07EB90009DD5ED /* LocalViewController.m in Sources */,
 				9B8787B91C07EDD70094FEA1 /* MemoryWarningViewController.m in Sources */,
@@ -1431,7 +1406,6 @@
 				9B68031C1C10296F005DC14E /* Download.m in Sources */,
 				9B7D4CC31C0FCF1E00CF8B90 /* CellHeightViewController.m in Sources */,
 				D5EBBC491C185DBE0044CCA4 /* MASConstraintMaker.m in Sources */,
-				D542EF141C1863D4001B5126 /* RDVTabBarController.m in Sources */,
 				9B9973B31C07EB69009DD5ED /* RootViewController.m in Sources */,
 				9B9143041C076BD400D7ABF7 /* qrencode.c in Sources */,
 				D5C216E21C15C7D600E17601 /* AddressBookViewController.m in Sources */,
