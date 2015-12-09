@@ -16,6 +16,8 @@
 #import "MasontyViewController.h"
 #import "RDVTabViewController.h"
 #import "SCNavViewController.h"
+#import "TouchViewController.h"
+#import "FingerprintViewController.h"
 
 @interface AdditionViewController ()
 
@@ -29,7 +31,7 @@
     
     self.navigationItem.title = @"附加";
     
-    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"1本地图片缓存",@"2流媒体下载与播放", @"3图文混排", @"4瀑布流", @"5滚动视图复用", @"6蓝牙通信", @"72D绘图", @"8GameCenter", @"9应用内购", @"10常用支付方式", @"11广告联盟", @"12XMPP", @"13动态局部更新程序", @"14单元测试", @"15通讯录", @"16循环滚动", @"17音视频播放", @"18登录cookie的处理", @"19数据检验（正则表达式）", @"20数据加密（密码或接口数据）", @"21从相册多选图片，连拍图片并且通过POST上传，需要有上传进度", @"22旋转适配", @"23可复用自定义组件或库", @"24运行时使用", @"25私有API使用", @"26网页交互", @"27云搜索", @"28指纹识别", @"29核心动画", @"303DTouch", @"31加速器", @"32Http协议封装", @"33下拉刷新", @"34图片加载", @"35SCNavigation", @"36RDVTabBarController", @"37Masonry适配"]];
+    self.dataArray = [[NSMutableArray alloc] initWithArray:@[@"1本地图片缓存",@"2流媒体下载与播放", @"3图文混排", @"4瀑布流", @"5滚动视图复用", @"6蓝牙通信", @"72D绘图", @"8GameCenter", @"9应用内购", @"10常用支付方式", @"11广告联盟", @"12XMPP", @"13动态局部更新程序", @"14单元测试", @"*15通讯录*", @"16循环滚动", @"17音视频播放", @"18登录cookie的处理", @"19数据检验（正则表达式）", @"20数据加密（密码或接口数据）", @"21从相册多选图片，连拍图片并且通过POST上传，需要有上传进度", @"22旋转适配", @"23可复用自定义组件或库", @"24运行时使用", @"25私有API使用", @"26网页交互", @"27云搜索", @"*28指纹识别*", @"29核心动画", @"*303DTouch*", @"31加速器", @"32Http协议封装", @"33下拉刷新", @"34图片加载", @"35SCNavigation", @"36RDVTabBarController", @"*37Masonry适配*"]];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -153,7 +155,9 @@
         }
             break;
         case 27:{
-            
+            FingerprintViewController *finger = [[FingerprintViewController alloc] init];
+            finger.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:finger animated:YES];
         }
             break;
         case 28:{
@@ -161,7 +165,9 @@
         }
             break;
         case 29:{
-            
+            TouchViewController *touch = [[TouchViewController alloc] init];
+            touch.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:touch animated:YES];
         }
             break;
         case 30:{
