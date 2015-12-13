@@ -10,6 +10,15 @@
 
 @interface PullDownRefreshViewController ()
 
+{
+    NSMutableArray *_dataArr;
+    UITableView *_tableView;
+    
+    //下一次上拉加载的页数
+    NSInteger _page;
+}
+
+
 @end
 
 @implementation PullDownRefreshViewController
@@ -18,6 +27,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
