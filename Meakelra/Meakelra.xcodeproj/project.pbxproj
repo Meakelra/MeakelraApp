@@ -125,6 +125,15 @@
 		D5EBBC661C185E590044CCA4 /* RemakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC5C1C185E590044CCA4 /* RemakeViewController.m */; };
 		D5EBBC671C185E590044CCA4 /* SizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC5F1C185E590044CCA4 /* SizeViewController.m */; };
 		D5EBBC681C185E590044CCA4 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC621C185E590044CCA4 /* UpdateViewController.m */; };
+		D5F7355B1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7355A1C1DB1A1008D3A98 /* UnitTestViewController.m */; };
+		D5F7355C1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7355A1C1DB1A1008D3A98 /* UnitTestViewController.m */; };
+		D5F7355D1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7355A1C1DB1A1008D3A98 /* UnitTestViewController.m */; };
+		D5F735651C1DB1E2008D3A98 /* BlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F735641C1DB1E2008D3A98 /* BlueToothViewController.m */; };
+		D5F735681C1DB1FF008D3A98 /* EncryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F735671C1DB1FF008D3A98 /* EncryptViewController.m */; };
+		D5F7356B1C1DB224008D3A98 /* DataTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7356A1C1DB224008D3A98 /* DataTestViewController.m */; };
+		D5F7356E1C1DB25D008D3A98 /* ImageAndTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7356D1C1DB25D008D3A98 /* ImageAndTextViewController.m */; };
+		D5F735711C1DB27B008D3A98 /* InsidePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F735701C1DB27B008D3A98 /* InsidePayViewController.m */; };
+		D5F735741C1DB28A008D3A98 /* GameCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F735731C1DB28A008D3A98 /* GameCenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -382,6 +391,20 @@
 		D5EBBC5F1C185E590044CCA4 /* SizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeViewController.m; sourceTree = "<group>"; };
 		D5EBBC611C185E590044CCA4 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
 		D5EBBC621C185E590044CCA4 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		D5F735591C1DB1A1008D3A98 /* UnitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTestViewController.h; sourceTree = "<group>"; };
+		D5F7355A1C1DB1A1008D3A98 /* UnitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTestViewController.m; sourceTree = "<group>"; };
+		D5F735631C1DB1E2008D3A98 /* BlueToothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothViewController.h; sourceTree = "<group>"; };
+		D5F735641C1DB1E2008D3A98 /* BlueToothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothViewController.m; sourceTree = "<group>"; };
+		D5F735661C1DB1FF008D3A98 /* EncryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptViewController.h; sourceTree = "<group>"; };
+		D5F735671C1DB1FF008D3A98 /* EncryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptViewController.m; sourceTree = "<group>"; };
+		D5F735691C1DB224008D3A98 /* DataTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTestViewController.h; sourceTree = "<group>"; };
+		D5F7356A1C1DB224008D3A98 /* DataTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTestViewController.m; sourceTree = "<group>"; };
+		D5F7356C1C1DB25D008D3A98 /* ImageAndTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextViewController.h; sourceTree = "<group>"; };
+		D5F7356D1C1DB25D008D3A98 /* ImageAndTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextViewController.m; sourceTree = "<group>"; };
+		D5F7356F1C1DB27B008D3A98 /* InsidePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsidePayViewController.h; sourceTree = "<group>"; };
+		D5F735701C1DB27B008D3A98 /* InsidePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsidePayViewController.m; sourceTree = "<group>"; };
+		D5F735721C1DB28A008D3A98 /* GameCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterViewController.h; sourceTree = "<group>"; };
+		D5F735731C1DB28A008D3A98 /* GameCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterViewController.m; sourceTree = "<group>"; };
 		F7BEAABE83CF78E9B9478BAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -886,6 +909,13 @@
 			children = (
 				9B9973B71C07EBA4009DD5ED /* AdditionViewController.h */,
 				9B9973B81C07EBA4009DD5ED /* AdditionViewController.m */,
+				D5F735521C1DB161008D3A98 /* 单元测试 */,
+				D5F735531C1DB161008D3A98 /* 蓝牙通讯 */,
+				D5F735541C1DB161008D3A98 /* 数据加密 */,
+				D5F735551C1DB161008D3A98 /* 数据检验 */,
+				D5F735561C1DB161008D3A98 /* 图文混排 */,
+				D5F735571C1DB161008D3A98 /* 应用内购 */,
+				D5F735581C1DB161008D3A98 /* GameCenter */,
 				D542EF161C186486001B5126 /* 指纹识别 */,
 				D5EBBC211C185A0A0044CCA4 /* 3DTouch */,
 				D5C216D11C15C75800E17601 /* 流媒体下载与播放 */,
@@ -1162,6 +1192,69 @@
 			path = update;
 			sourceTree = "<group>";
 		};
+		D5F735521C1DB161008D3A98 /* 单元测试 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F735591C1DB1A1008D3A98 /* UnitTestViewController.h */,
+				D5F7355A1C1DB1A1008D3A98 /* UnitTestViewController.m */,
+			);
+			path = "单元测试";
+			sourceTree = "<group>";
+		};
+		D5F735531C1DB161008D3A98 /* 蓝牙通讯 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F735631C1DB1E2008D3A98 /* BlueToothViewController.h */,
+				D5F735641C1DB1E2008D3A98 /* BlueToothViewController.m */,
+			);
+			path = "蓝牙通讯";
+			sourceTree = "<group>";
+		};
+		D5F735541C1DB161008D3A98 /* 数据加密 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F735661C1DB1FF008D3A98 /* EncryptViewController.h */,
+				D5F735671C1DB1FF008D3A98 /* EncryptViewController.m */,
+			);
+			path = "数据加密";
+			sourceTree = "<group>";
+		};
+		D5F735551C1DB161008D3A98 /* 数据检验 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F735691C1DB224008D3A98 /* DataTestViewController.h */,
+				D5F7356A1C1DB224008D3A98 /* DataTestViewController.m */,
+			);
+			path = "数据检验";
+			sourceTree = "<group>";
+		};
+		D5F735561C1DB161008D3A98 /* 图文混排 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F7356C1C1DB25D008D3A98 /* ImageAndTextViewController.h */,
+				D5F7356D1C1DB25D008D3A98 /* ImageAndTextViewController.m */,
+			);
+			path = "图文混排";
+			sourceTree = "<group>";
+		};
+		D5F735571C1DB161008D3A98 /* 应用内购 */ = {
+			isa = PBXGroup;
+			children = (
+				D5F7356F1C1DB27B008D3A98 /* InsidePayViewController.h */,
+				D5F735701C1DB27B008D3A98 /* InsidePayViewController.m */,
+			);
+			path = "应用内购";
+			sourceTree = "<group>";
+		};
+		D5F735581C1DB161008D3A98 /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				D5F735721C1DB28A008D3A98 /* GameCenterViewController.h */,
+				D5F735731C1DB28A008D3A98 /* GameCenterViewController.m */,
+			);
+			path = GameCenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1364,6 +1457,7 @@
 				9B7D4CC71C0FD2A600CF8B90 /* GDataXMLNode.m in Sources */,
 				9B6803071C101804005DC14E /* DownLoadViewController.m in Sources */,
 				D5EBBC4C1C185DBE0044CCA4 /* MASViewConstraint.m in Sources */,
+				D5F7356E1C1DB25D008D3A98 /* ImageAndTextViewController.m in Sources */,
 				D5C216F11C15C86E00E17601 /* RDVTabViewController.m in Sources */,
 				9B8B29E91C0D9709004A6D7A /* HudViewController.m in Sources */,
 				D5EBBC501C185DBE0044CCA4 /* ViewController+MASAdditions.m in Sources */,
@@ -1371,6 +1465,7 @@
 				D5EBBC481C185DBE0044CCA4 /* MASConstraint.m in Sources */,
 				D5EBBC2A1C185BC00044CCA4 /* TestTwoViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
+				D5F735711C1DB27B008D3A98 /* InsidePayViewController.m in Sources */,
 				9B6803101C101854005DC14E /* JsonViewController.m in Sources */,
 				D5EBBC4B1C185DBE0044CCA4 /* MASViewAttribute.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
@@ -1380,6 +1475,7 @@
 				9B4420091C0D2CBA00FA620E /* JGPushViewController.m in Sources */,
 				9B9973BC1C07EBBD009DD5ED /* HttpViewController.m in Sources */,
 				9B6803131C102023005DC14E /* AFDownViewController.m in Sources */,
+				D5F7355B1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */,
 				9B7D4CCE1C0FD3D000CF8B90 /* CellModel.m in Sources */,
 				D5C216FB1C15CEA700E17601 /* AddressBookModel.m in Sources */,
 				9B40C8FD1C082F0B00C49D43 /* ListDatabaseViewController.m in Sources */,
@@ -1387,10 +1483,13 @@
 				9B8787CA1C07EE0F0094FEA1 /* ApplicableViewController.m in Sources */,
 				9B9973CC1C07EC7E009DD5ED /* MakeCodeViewController.m in Sources */,
 				9B7D4CD11C0FD3EE00CF8B90 /* AutoHeightTableViewCell.m in Sources */,
+				D5F735651C1DB1E2008D3A98 /* BlueToothViewController.m in Sources */,
+				D5F7356B1C1DB224008D3A98 /* DataTestViewController.m in Sources */,
 				D5C216E51C15C81400E17601 /* PullDownRefreshViewController.m in Sources */,
 				9B8B29D91C0D7C81004A6D7A /* ReachabilityCheckViewController.m in Sources */,
 				D5C216EE1C15C85E00E17601 /* MasontyViewController.m in Sources */,
 				9BBD594A1C0C2A73004DA77F /* CheckNetViewController.m in Sources */,
+				D5F735741C1DB28A008D3A98 /* GameCenterViewController.m in Sources */,
 				9B40C9061C082FB600C49D43 /* CocoaViewController.m in Sources */,
 				D5EBBC661C185E590044CCA4 /* RemakeViewController.m in Sources */,
 				D5C216E81C15C82C00E17601 /* CircleViewController.m in Sources */,
@@ -1418,6 +1517,7 @@
 				9B68030A1C10181A005DC14E /* ShareAndLoginViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
 				9B9973C91C07EC5E009DD5ED /* ZBarCodeViewController.m in Sources */,
+				D5F735681C1DB1FF008D3A98 /* EncryptViewController.m in Sources */,
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,
 				D5EBBC271C185BB30044CCA4 /* TestOneViewController.m in Sources */,
@@ -1444,6 +1544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F7355C1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */,
 				9B9142B21C076A9400D7ABF7 /* MeakelraTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1452,6 +1553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F7355D1C1DB1A1008D3A98 /* UnitTestViewController.m in Sources */,
 				9B9142BD1C076A9400D7ABF7 /* MeakelraUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

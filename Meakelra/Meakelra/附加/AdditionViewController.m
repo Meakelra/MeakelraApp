@@ -18,6 +18,13 @@
 #import "SCNavViewController.h"
 #import "TouchViewController.h"
 #import "FingerprintViewController.h"
+#import "UnitTestViewController.h"
+#import "BlueToothViewController.h"
+#import "EncryptViewController.h"
+#import "DataTestViewController.h"
+#import "ImageAndTextViewController.h"
+#import "InsidePayViewController.h"
+#import "GameCenterViewController.h"
 
 @interface AdditionViewController ()
 
@@ -47,7 +54,9 @@
         }
             break;
         case 2:{
-            
+            ImageAndTextViewController *image = [[ImageAndTextViewController alloc] init];
+            image.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:image animated:YES];
         }
             break;
         case 3:{
@@ -61,7 +70,9 @@
         }
             break;
         case 5:{
-            
+            BlueToothViewController *blueTooth = [[BlueToothViewController alloc] init];
+            blueTooth.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:blueTooth animated:YES];
         }
             break;
         case 6:{
@@ -69,11 +80,15 @@
         }
             break;
         case 7:{
-            
+            GameCenterViewController *gameCenter = [[GameCenterViewController alloc] init];
+            gameCenter.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:gameCenter animated:YES];
         }
             break;
         case 8:{
-            
+            InsidePayViewController *insidePay = [[InsidePayViewController alloc] init];
+            insidePay.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:insidePay animated:YES];
         }
             break;
         case 9:{
@@ -93,7 +108,9 @@
         }
             break;
         case 13:{
-            
+            UnitTestViewController *unitTest = [[UnitTestViewController alloc] init];
+            unitTest.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:unitTest animated:YES];
         }
             break;
         case 14:{
@@ -119,11 +136,15 @@
         }
             break;
         case 18:{
-            
+            DataTestViewController *dataTest = [[DataTestViewController alloc] init];
+            dataTest.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:dataTest animated:YES];
         }
             break;
         case 19:{
-            
+            EncryptViewController *encrypt = [[EncryptViewController alloc] init];
+            encrypt.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:encrypt animated:YES];
         }
             break;
         case 20:{
