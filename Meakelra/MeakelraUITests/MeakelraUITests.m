@@ -31,6 +31,8 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+// Initializer element is not a compile-time constant
+// Use of undeclared identifier 'tabBarsQuery'
 
 - (void)testExample {
     // Use recording to get started writing UI tests.

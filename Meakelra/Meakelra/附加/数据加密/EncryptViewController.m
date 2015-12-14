@@ -7,6 +7,7 @@
 //
 
 #import "EncryptViewController.h"
+#import "Base64codeFunc.h"
 
 @interface EncryptViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *string = @"需要加密的字符串";
+    //加密后的字符串
+    NSString *encodeString = nil;
+    //解密后的字符串
+    NSString *decodeString = nil;
+    //stringToBase64
+    encodeString  = __BASE64(string);
+    //base64ToString
+    decodeString = __TEXT(encodeString);
+    NSLog(@"%@    %@",encodeString, decodeString);
+    
 }
 
 - (void)didReceiveMemoryWarning {

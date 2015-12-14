@@ -7,6 +7,7 @@
 //
 
 #import "DataTestViewController.h"
+#import "RegexKitLite.h"
 
 @interface DataTestViewController ()
 
@@ -17,6 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    NSString *email = @"kkk@aaa.com";
+    
+   BOOL is =  [email isMatchedByRegex:@"\\b([a-zA-Z0-9%_.+\\-]+)@([a-zA-Z0-9.\\-]+?\\.[a-zA-Z]{2,6})\\b"];
+    NSLog(@"%hhd",is);
+    
+//    NSString *searchString = @ "This is neat." ;
+//    NSString *regexString  = @"//s+" ;
+//    NSArray  *splitArray   = NULL;
+//    splitArray = [searchString componentsSeparatedByRegex:regexString];
+//    // splitArray == { @"This", @"is", @"neat." }
+//    NSLog(@"splitArray: %@" , splitArray);
+    
+    NSString *searchString = @"This is neat.";
+    NSString *regexString  = @"//s+";
+    NSArray  *splitArray   = NULL;
+    splitArray = [searchString componentsSeparatedByRegex:regexString];
+    // splitArray == { @"This", @"is", @"neat." }
+    NSLog(@"splitArray: %@", splitArray);
+    
 }
 
 - (void)didReceiveMemoryWarning {
