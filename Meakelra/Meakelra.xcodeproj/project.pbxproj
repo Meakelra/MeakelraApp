@@ -106,8 +106,8 @@
 		D5C216F81C15CE4100E17601 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C216F71C15CE4100E17601 /* AddressBookUI.framework */; };
 		D5C216FB1C15CEA700E17601 /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C216FA1C15CEA700E17601 /* AddressBookModel.m */; };
 		D5C7CB9D1C1F04FC0013B3B5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C7CB9C1C1F04FC0013B3B5 /* libicucore.tbd */; };
-		D5C7CBA01C1F055F0013B3B5 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C7CB9F1C1F055F0013B3B5 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5C7CBA61C1F08C00013B3B5 /* Base64codeFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C7CBA51C1F08C00013B3B5 /* Base64codeFunc.m */; };
+		D5DC123D1C3271AB0006D3EB /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DC123C1C3271AB0006D3EB /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5EBBC241C185AB70044CCA4 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC231C185AB70044CCA4 /* TouchViewController.m */; };
 		D5EBBC271C185BB30044CCA4 /* TestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC261C185BB30044CCA4 /* TestOneViewController.m */; };
 		D5EBBC2A1C185BC00044CCA4 /* TestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBC291C185BC00044CCA4 /* TestTwoViewController.m */; };
@@ -351,10 +351,10 @@
 		D5C216F91C15CEA700E17601 /* AddressBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
 		D5C216FA1C15CEA700E17601 /* AddressBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
 		D5C7CB9C1C1F04FC0013B3B5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		D5C7CB9E1C1F055F0013B3B5 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "../../../../../RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
-		D5C7CB9F1C1F055F0013B3B5 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "../../../../../RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
 		D5C7CBA41C1F08C00013B3B5 /* Base64codeFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64codeFunc.h; sourceTree = "<group>"; };
 		D5C7CBA51C1F08C00013B3B5 /* Base64codeFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64codeFunc.m; sourceTree = "<group>"; };
+		D5DC123B1C3271AB0006D3EB /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D5DC123C1C3271AB0006D3EB /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		D5EBBC221C185AB70044CCA4 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
 		D5EBBC231C185AB70044CCA4 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 		D5EBBC251C185BB30044CCA4 /* TestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOneViewController.h; sourceTree = "<group>"; };
@@ -723,10 +723,10 @@
 				9B91429B1C076A9400D7ABF7 /* AppDelegate.m */,
 				9B91429D1C076A9400D7ABF7 /* ViewController.h */,
 				9B91429E1C076A9400D7ABF7 /* ViewController.m */,
+				9B9973A81C07EAEC009DD5ED /* 三方库文件 */,
 				9B7D4CCA1C0FD3AE00CF8B90 /* AppModel */,
 				9B7D4CCB1C0FD3AE00CF8B90 /* AppView */,
 				9B9973A51C07EAEC009DD5ED /* 附加 */,
-				9B9973A81C07EAEC009DD5ED /* 三方库文件 */,
 				9B9973A91C07EAEC009DD5ED /* 网络 */,
 				9B9973A31C07EAEC009DD5ED /* 本地 */,
 				9B9973A61C07EAEC009DD5ED /* 基本 */,
@@ -1236,8 +1236,8 @@
 			children = (
 				D5F735691C1DB224008D3A98 /* DataTestViewController.h */,
 				D5F7356A1C1DB224008D3A98 /* DataTestViewController.m */,
-				D5C7CB9E1C1F055F0013B3B5 /* RegexKitLite.h */,
-				D5C7CB9F1C1F055F0013B3B5 /* RegexKitLite.m */,
+				D5DC123B1C3271AB0006D3EB /* RegexKitLite.h */,
+				D5DC123C1C3271AB0006D3EB /* RegexKitLite.m */,
 			);
 			path = "数据检验";
 			sourceTree = "<group>";
@@ -1480,7 +1480,6 @@
 				D5EBBC2A1C185BC00044CCA4 /* TestTwoViewController.m in Sources */,
 				9B9973B21C07EB69009DD5ED /* CustomTabBarController.m in Sources */,
 				D5F735711C1DB27B008D3A98 /* InsidePayViewController.m in Sources */,
-				D5C7CBA01C1F055F0013B3B5 /* RegexKitLite.m in Sources */,
 				9B6803101C101854005DC14E /* JsonViewController.m in Sources */,
 				D5EBBC4B1C185DBE0044CCA4 /* MASViewAttribute.m in Sources */,
 				9B91429F1C076A9400D7ABF7 /* ViewController.m in Sources */,
@@ -1533,6 +1532,7 @@
 				9B68030A1C10181A005DC14E /* ShareAndLoginViewController.m in Sources */,
 				9B9143081C076BD400D7ABF7 /* split.c in Sources */,
 				9B9973C91C07EC5E009DD5ED /* ZBarCodeViewController.m in Sources */,
+				D5DC123D1C3271AB0006D3EB /* RegexKitLite.m in Sources */,
 				D5F735681C1DB1FF008D3A98 /* EncryptViewController.m in Sources */,
 				9B9143011C076BD400D7ABF7 /* bitstream.c in Sources */,
 				9B9973B91C07EBA4009DD5ED /* AdditionViewController.m in Sources */,

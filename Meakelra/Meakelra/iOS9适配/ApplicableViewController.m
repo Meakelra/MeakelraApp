@@ -20,7 +20,7 @@
     
     self.navigationItem.title = @"iOS9适配";
     
-    
+    //因内容较散，调用网页加载
     UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height - 64)];
     NSURL *url = [NSURL URLWithString:@"http://www.cnblogs.com/dsxniubility/p/4821184.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];

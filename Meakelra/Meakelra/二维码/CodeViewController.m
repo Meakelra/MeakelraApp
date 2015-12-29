@@ -32,12 +32,14 @@
     switch (indexPath.row) {
         case 0:
         {
+            //二维码生成
             MakeCodeViewController *makeCode = [[MakeCodeViewController alloc] init];
             [self.navigationController pushViewController:makeCode animated:YES];
         }
             break;
             
         case 2:{
+            //系统二维码扫描
             SystemCodeViewController *systemCode = [[SystemCodeViewController alloc] init];
 //            [self.navigationController pushViewController:systemCode animated:YES];
             [self presentViewController:systemCode animated:YES completion:^{
@@ -47,6 +49,7 @@
             break;
             
         case 3:{
+            //ZBar扫描
             ZBarCodeViewController *code = [[ZBarCodeViewController alloc] init];
             [self presentViewController:code animated:YES completion:^{
                 //

@@ -34,42 +34,49 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:{
+            //多表数据库
             ListDatabaseViewController *list = [[ListDatabaseViewController alloc] init];
             list.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:list animated:YES];
         }
             break;
         case 1:{
+            //国际化
             InternationalViewController *international = [[InternationalViewController alloc] init];
             international.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:international animated:YES];
         }
             break;
         case 2:{
+            //界面适配
             SuitableViewController *suitable = [[SuitableViewController alloc] init];
             suitable.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:suitable animated:YES];
         }
             break;
         case 3:{
+            //iOS9适配
             ApplicableViewController *app = [[ApplicableViewController alloc] init];
             app.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:app animated:YES];
         }
             break;
         case 4:{
+            //二维码
             CodeViewController *code = [[CodeViewController alloc] init];
             code.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:code animated:YES];
         }
             break;
         case 5:{
+            //内存警告处理
             MemoryWarningViewController *warning = [[MemoryWarningViewController alloc] init];
             warning.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:warning animated:YES];
         }
             break;
         case 6:{
+            //Cocoapods
             CocoaViewController *cocoapods = [[CocoaViewController alloc] init];
             cocoapods.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:cocoapods animated:YES];

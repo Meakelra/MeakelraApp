@@ -32,57 +32,64 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:{
+            //下载断点续传
             DownLoadViewController *downLoad = [[DownLoadViewController alloc] init];
             downLoad.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:downLoad animated:YES];
         }
             break;
         case 1:{
+            //本地推送和远程推送
             PushViewController *push = [[PushViewController alloc] init];
             push.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:push animated:YES];
         }
             break;
         case 2:{
-            
+            //第三方分享和登录 OAuth2.0实现
         }
             break;
         case 3:{
+            //软件更新检查
             UpdataViewController *updata = [[UpdataViewController alloc] init];
             updata.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:updata animated:YES];
         }
             break;
         case 4:{
+            //网络状态检查
             CheckNetViewController *checkNet = [[CheckNetViewController alloc] init];
             checkNet.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:checkNet animated:YES];
         }
             break;
         case 5:{
-            
+            //POST上传下载
         }
             break;
         case 6:{
+            //加载指示器
             InstructionsViewController *instructions = [[InstructionsViewController alloc] init];
             instructions.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:instructions animated:YES];
         }
             break;
         case 7:{
+            //动态计算cell的高度
             CellHeightViewController *cell = [[CellHeightViewController alloc] init];
             cell.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:cell animated:YES];
         }
             break;
         case 8:{
+            //性能优化（内存，加载速度等）
             PerformanceViewController *performance = [[PerformanceViewController alloc] init];
             performance.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:performance animated:YES];
         }
             break;
         case 9:{
-            
+            //Mantle或者JsonModel
         }
             break;
             

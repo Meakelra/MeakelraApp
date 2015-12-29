@@ -184,7 +184,7 @@
      
      request.HTTPShouldUsePipelining = YES;
      
-     [request addValue:@"image/*"forHTTPHeaderField:@"Accept"];
+     [request addValue:@"image"forHTTPHeaderField:@"Accept"];
      
      return request;
      

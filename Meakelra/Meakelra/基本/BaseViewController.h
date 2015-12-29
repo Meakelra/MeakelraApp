@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
-
+//基本父类
 @interface BaseViewController : UIViewController
 
 @end

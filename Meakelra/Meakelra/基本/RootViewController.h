@@ -8,6 +8,7 @@
 
 #import "BaseViewController.h"
 
+//带有UITableView的父类
 @interface RootViewController : BaseViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
