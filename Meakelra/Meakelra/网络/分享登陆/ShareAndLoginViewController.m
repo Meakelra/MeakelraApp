@@ -8,7 +8,7 @@
 
 #import "ShareAndLoginViewController.h"
 
-@interface ShareAndLoginViewController ()
+@interface ShareAndLoginViewController ()<UIAlertViewDelegate>
 
 @end
 
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"13" message:@"456" delegate:self cancelButtonTitle:@"cancle" otherButtonTitles:@"OK", nil];
+    
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning {
